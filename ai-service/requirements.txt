@@ -1,0 +1,51 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pyjwt>=2.8.0
+python-multipart>=0.0.9
+pydantic>=2.5.0
+sse-starlette>=1.8.0
+
+# LlamaIndex RAG 框架（双索引智能路由核心）
+llama-index>=0.10.0
+llama-index-core>=0.10.0
+llama-index-llms-openai-like>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+llama-index-vector-stores-elasticsearch>=0.1.0
+llama-index-vector-stores-chroma>=0.1.0
+
+# LangChain / LangGraph（Agent 智能编排）
+langchain>=0.1.0
+langgraph>=0.0.40
+
+# 向量数据库
+elasticsearch>=8.0.0
+chromadb>=0.4.0
+
+# Embedding / Rerank 模型（BGE 系列）
+sentence-transformers>=2.3.0
+
+# 数据处理工具库
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 文档解析（PDF / Word 多线程分片读取）
+pypdf>=4.0.0
+python-docx>=1.1.0
+pdfplumber>=0.10.0
+
+# 消息队列（RabbitMQ 数据同步）
+pika>=1.3.0
+
+# MySQL Binlog 监听（数据同步）
+pymysql>=1.1.0
+python-mysql-replication>=0.45.0
+
+# Redis 缓存（常见问题缓存）
+redis>=5.0.0
+
+# 定时任务调度
+apscheduler>=3.10.0
+
+# 异步 HTTP（多线程爬取）
+aiohttp>=3.9.0
+beautifulsoup4>=4.12.0

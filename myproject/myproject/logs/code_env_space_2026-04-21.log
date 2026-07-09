@@ -1,0 +1,361 @@
+INFO 2026-04-21 08:56:11,269 autoreload 30764 34120 Watching for file changes with StatReloader
+WARNING 2026-04-21 08:57:00,252 log 30764 16648 Not Found: /course/nav/
+WARNING 2026-04-21 08:57:00,252 log 30764 10900 Not Found: /course/cate/
+WARNING 2026-04-21 08:57:00,252 log 30764 22724 Not Found: /course/banner/
+WARNING 2026-04-21 08:57:00,258 basehttp 30764 16648 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 08:57:00,259 basehttp 30764 10900 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 08:57:00,267 basehttp 30764 22724 "GET /course/banner/ HTTP/1.1" 404 2473
+INFO 2026-04-21 09:04:05,621 autoreload 30764 34120 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:04:06,166 autoreload 32708 23784 Watching for file changes with StatReloader
+INFO 2026-04-21 09:04:32,799 autoreload 24424 24392 Watching for file changes with StatReloader
+WARNING 2026-04-21 09:04:39,189 log 24424 14716 Not Found: /course/cate/
+WARNING 2026-04-21 09:04:39,190 log 24424 3204 Not Found: /course/nav/
+WARNING 2026-04-21 09:04:39,190 log 24424 25412 Not Found: /course/banner/
+WARNING 2026-04-21 09:04:39,193 basehttp 24424 14716 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:04:39,197 basehttp 24424 3204 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:04:39,197 basehttp 24424 25412 "GET /course/banner/ HTTP/1.1" 404 2473
+INFO 2026-04-21 09:32:23,168 autoreload 24424 24392 D:\p3\p3\myproject\myproject\settings\dev.py changed, reloading.
+INFO 2026-04-21 09:32:24,242 autoreload 7928 28524 Watching for file changes with StatReloader
+INFO 2026-04-21 09:32:46,064 autoreload 8208 18956 Watching for file changes with StatReloader
+WARNING 2026-04-21 09:33:28,688 log 8208 1060 Not Found: /course/banner/
+WARNING 2026-04-21 09:33:28,688 log 8208 28504 Not Found: /course/nav/
+WARNING 2026-04-21 09:33:28,688 log 8208 23388 Not Found: /course/cate/
+WARNING 2026-04-21 09:33:28,694 basehttp 8208 1060 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:33:28,695 basehttp 8208 28504 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:33:28,696 basehttp 8208 23388 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:33:31,378 log 8208 23388 Not Found: /course/nav/
+WARNING 2026-04-21 09:33:31,386 log 8208 28504 Not Found: /course/cate/
+WARNING 2026-04-21 09:33:31,390 log 8208 1060 Not Found: /course/banner/
+WARNING 2026-04-21 09:33:31,391 basehttp 8208 23388 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:33:31,393 basehttp 8208 28504 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:33:31,394 basehttp 8208 1060 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:33:44,297 log 8208 23388 Not Found: /course/banner/
+WARNING 2026-04-21 09:33:44,301 log 8208 1060 Not Found: /course/nav/
+WARNING 2026-04-21 09:33:44,307 log 8208 28504 Not Found: /course/cate/
+WARNING 2026-04-21 09:33:44,310 basehttp 8208 23388 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:33:44,310 basehttp 8208 1060 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:33:44,310 basehttp 8208 28504 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:35:39,696 log 8208 28504 Not Found: /course/nav/
+WARNING 2026-04-21 09:35:39,703 log 8208 1060 Not Found: /course/cate/
+WARNING 2026-04-21 09:35:39,707 log 8208 23388 Not Found: /course/banner/
+WARNING 2026-04-21 09:35:39,708 basehttp 8208 28504 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:35:39,709 basehttp 8208 1060 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:35:39,711 basehttp 8208 23388 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:36:02,212 log 8208 23388 Not Found: /course/nav/
+WARNING 2026-04-21 09:36:02,216 basehttp 8208 23388 "GET /course/nav/ HTTP/1.1" 404 2464
+INFO 2026-04-21 09:36:53,747 basehttp 8208 23388 "OPTIONS /login/ HTTP/1.1" 200 0
+WARNING 2026-04-21 09:36:53,760 log 8208 1060 Not Found: /course/nav/
+WARNING 2026-04-21 09:36:53,766 log 8208 28504 Not Found: /course/cate/
+WARNING 2026-04-21 09:36:53,775 log 8208 23388 Not Found: /course/banner/
+WARNING 2026-04-21 09:36:53,776 basehttp 8208 1060 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:36:53,776 basehttp 8208 28504 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:36:53,777 basehttp 8208 23388 "GET /course/banner/ HTTP/1.1" 404 2473
+INFO 2026-04-21 09:36:53,788 basehttp 8208 1060 "POST /login/ HTTP/1.1" 200 28
+WARNING 2026-04-21 09:37:02,059 log 8208 1060 Not Found: /course/nav/
+INFO 2026-04-21 09:37:02,061 basehttp 8208 23388 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-21 09:37:02,061 basehttp 8208 1060 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:37:02,065 log 8208 28504 Not Found: /course/cate/
+WARNING 2026-04-21 09:37:02,070 log 8208 19736 Not Found: /course/banner/
+WARNING 2026-04-21 09:37:02,071 basehttp 8208 28504 "GET /course/cate/ HTTP/1.1" 404 2467
+WARNING 2026-04-21 09:37:02,071 basehttp 8208 19736 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:37:16,171 log 8208 19736 Not Found: /course/nav/
+WARNING 2026-04-21 09:37:16,176 log 8208 23388 Not Found: /course/banner/
+WARNING 2026-04-21 09:37:16,184 log 8208 1060 Not Found: /course/cate/
+INFO 2026-04-21 09:37:16,184 basehttp 8208 28504 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-21 09:37:16,188 basehttp 8208 19736 "GET /course/nav/ HTTP/1.1" 404 2464
+WARNING 2026-04-21 09:37:16,192 basehttp 8208 23388 "GET /course/banner/ HTTP/1.1" 404 2473
+WARNING 2026-04-21 09:37:16,193 basehttp 8208 1060 "GET /course/cate/ HTTP/1.1" 404 2467
+INFO 2026-04-21 09:45:22,870 autoreload 17532 28892 Watching for file changes with StatReloader
+INFO 2026-04-21 09:45:43,479 autoreload 17532 28892 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 09:45:43,993 autoreload 27540 17068 Watching for file changes with StatReloader
+WARNING 2026-04-21 09:45:46,980 log 27540 23580 Not Found: /
+WARNING 2026-04-21 09:45:46,981 basehttp 27540 23580 "GET / HTTP/1.1" 404 2564
+WARNING 2026-04-21 09:45:47,066 log 27540 23580 Not Found: /favicon.ico
+WARNING 2026-04-21 09:45:47,069 basehttp 27540 23580 "GET /favicon.ico HTTP/1.1" 404 2615
+INFO 2026-04-21 09:45:57,586 basehttp 27540 23580 "GET /tcourse/category/ HTTP/1.1" 200 10001
+INFO 2026-04-21 09:45:57,612 basehttp 27540 23580 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,620 basehttp 27540 11596 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,620 basehttp 27540 29928 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,620 basehttp 27540 23580 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,623 basehttp 27540 26716 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,625 basehttp 27540 11572 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,628 basehttp 27540 24216 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,628 basehttp 27540 11596 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,631 basehttp 27540 29928 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,632 basehttp 27540 23580 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,635 basehttp 27540 26716 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-04-21 09:45:57,641 basehttp 27540 11596 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-04-21 09:47:51,505 autoreload 27540 17068 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:47:52,010 autoreload 23300 24932 Watching for file changes with StatReloader
+INFO 2026-04-21 09:48:50,335 autoreload 23300 24932 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:48:50,842 autoreload 1748 32020 Watching for file changes with StatReloader
+INFO 2026-04-21 09:49:20,015 autoreload 1748 32020 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:49:20,528 autoreload 31580 3492 Watching for file changes with StatReloader
+INFO 2026-04-21 09:49:27,975 autoreload 31580 3492 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:49:28,441 autoreload 23128 33280 Watching for file changes with StatReloader
+INFO 2026-04-21 09:49:43,735 autoreload 23128 33280 D:\p3\p3\myproject\euser\admin.py changed, reloading.
+INFO 2026-04-21 09:49:44,274 autoreload 32360 16436 Watching for file changes with StatReloader
+INFO 2026-04-21 09:51:45,787 autoreload 32360 16436 D:\p3\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-04-21 09:51:46,373 autoreload 17216 17680 Watching for file changes with StatReloader
+INFO 2026-04-21 09:53:47,835 autoreload 17216 17680 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 09:53:48,316 autoreload 20292 3320 Watching for file changes with StatReloader
+INFO 2026-04-21 10:01:27,686 autoreload 20292 3320 D:\p3\p3\myproject\myproject\settings\dev.py changed, reloading.
+INFO 2026-04-21 10:01:28,182 autoreload 27564 9368 Watching for file changes with StatReloader
+INFO 2026-04-21 10:02:32,588 autoreload 27564 9368 D:\p3\p3\myproject\tcourse\admin.py changed, reloading.
+INFO 2026-04-21 10:02:33,102 autoreload 13468 17784 Watching for file changes with StatReloader
+INFO 2026-04-21 10:02:52,356 basehttp 13468 22952 "GET /admin HTTP/1.1" 301 0
+INFO 2026-04-21 10:02:52,380 basehttp 13468 26944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:02:52,465 basehttp 13468 26944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2026-04-21 10:02:53,137 basehttp 13468 18812 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-21 10:02:53,147 basehttp 13468 16468 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2026-04-21 10:02:53,181 basehttp 13468 26944 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2026-04-21 10:02:53,191 basehttp 13468 26944 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-21 10:02:53,197 basehttp 13468 9948 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-21 10:02:53,219 basehttp 13468 14348 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-21 10:02:53,231 basehttp 13468 33004 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2026-04-21 10:02:56,298 basehttp 13468 33004 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4340
+INFO 2026-04-21 10:03:30,629 autoreload 12924 32772 Watching for file changes with StatReloader
+INFO 2026-04-21 10:03:39,696 basehttp 12924 18648 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:03:39,829 basehttp 12924 18648 "GET /admin/ HTTP/1.1" 200 7168
+INFO 2026-04-21 10:03:40,167 basehttp 12924 13048 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2026-04-21 10:03:40,182 basehttp 12924 11048 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2026-04-21 10:03:40,214 basehttp 12924 18648 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+ERROR 2026-04-21 10:03:42,671 log 12924 18648 Internal Server Error: /admin/tcourse/category/
+Traceback (most recent call last):
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'edupro.category' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\options.py", line 2024, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\options.py", line 867, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\views\main.py", line 146, in __init__
+    self.get_results(request)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\contrib\admin\views\main.py", line 313, in get_results
+    result_count = paginator.count
+                   ^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\models\query.py", line 606, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\models\sql\query.py", line 646, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\models\sql\query.py", line 628, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'edupro.category' doesn't exist")
+ERROR 2026-04-21 10:03:42,689 basehttp 12924 18648 "GET /admin/tcourse/category/ HTTP/1.1" 500 271351
+INFO 2026-04-21 10:04:58,873 autoreload 7884 20688 Watching for file changes with StatReloader
+INFO 2026-04-21 10:05:03,343 basehttp 7884 29936 "GET /admin/tcourse/category/ HTTP/1.1" 200 8293
+INFO 2026-04-21 10:05:03,868 basehttp 7884 4132 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-21 10:05:03,910 basehttp 7884 4132 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:03,917 basehttp 7884 31256 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-21 10:05:03,919 basehttp 7884 4132 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-21 10:05:03,924 basehttp 7884 31256 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-21 10:05:03,946 basehttp 7884 31912 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-21 10:05:03,949 basehttp 7884 4132 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-21 10:05:03,956 basehttp 7884 7756 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-21 10:05:04,071 basehttp 7884 29936 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2026-04-21 10:05:04,076 basehttp 7884 29936 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-21 10:05:04,078 basehttp 7884 19812 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-21 10:05:04,093 basehttp 7884 19812 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2026-04-21 10:05:06,908 basehttp 7884 19812 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 12467
+INFO 2026-04-21 10:05:06,929 basehttp 7884 29936 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-21 10:05:06,932 basehttp 7884 19812 "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2026-04-21 10:05:06,954 basehttp 7884 7756 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:06,956 basehttp 7884 19812 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2026-04-21 10:05:06,958 basehttp 7884 29936 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+INFO 2026-04-21 10:05:06,963 basehttp 7884 19812 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-21 10:05:18,765 basehttp 7884 19812 "POST /admin/tcourse/category/add/ HTTP/1.1" 200 12708
+INFO 2026-04-21 10:05:18,798 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:26,423 basehttp 7884 19812 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:05:26,478 basehttp 7884 19812 "GET /admin/tcourse/category/ HTTP/1.1" 200 9811
+INFO 2026-04-21 10:05:26,517 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:26,530 basehttp 7884 19812 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2026-04-21 10:05:28,313 basehttp 7884 19812 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 12517
+INFO 2026-04-21 10:05:28,368 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:52,314 basehttp 7884 19812 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:05:52,341 basehttp 7884 19812 "GET /admin/tcourse/category/ HTTP/1.1" 200 10101
+INFO 2026-04-21 10:05:52,379 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:05:54,674 basehttp 7884 19812 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 12567
+INFO 2026-04-21 10:05:54,703 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:06:11,352 basehttp 7884 19812 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:06:11,448 basehttp 7884 19812 "GET /admin/tcourse/category/ HTTP/1.1" 200 10391
+INFO 2026-04-21 10:06:11,490 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:06:17,406 basehttp 7884 19812 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 12617
+INFO 2026-04-21 10:06:17,473 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:06:30,406 basehttp 7884 19812 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:06:30,470 basehttp 7884 19812 "GET /admin/tcourse/category/ HTTP/1.1" 200 10681
+INFO 2026-04-21 10:06:30,530 basehttp 7884 19812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:10:26,123 autoreload 7884 20688 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 10:10:26,644 autoreload 10152 30624 Watching for file changes with StatReloader
+INFO 2026-04-21 10:10:34,568 autoreload 10152 30624 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 10:10:35,056 autoreload 33552 2560 Watching for file changes with StatReloader
+INFO 2026-04-21 10:11:04,009 basehttp 33552 11116 "GET /tcourse/category HTTP/1.1" 301 0
+ERROR 2026-04-21 10:11:04,113 log 33552 14636 Internal Server Error: /tcourse/category/
+Traceback (most recent call last):
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\韩通\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\p3\p3\myproject\tcourse\views.py", line 12, in get
+    catelist= Category.objects.all(level=1,is_delete=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseManager.all() got an unexpected keyword argument 'level'
+ERROR 2026-04-21 10:11:04,126 basehttp 33552 14636 "GET /tcourse/category/ HTTP/1.1" 500 99084
+WARNING 2026-04-21 10:11:04,247 log 33552 14636 Not Found: /favicon.ico
+WARNING 2026-04-21 10:11:04,249 basehttp 33552 14636 "GET /favicon.ico HTTP/1.1" 404 2615
+INFO 2026-04-21 10:12:38,806 autoreload 33552 2560 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 10:12:39,289 autoreload 10204 30624 Watching for file changes with StatReloader
+INFO 2026-04-21 10:12:43,031 basehttp 10204 17932 "GET /tcourse/category/ HTTP/1.1" 200 11063
+INFO 2026-04-21 10:12:43,056 basehttp 10204 31196 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,056 basehttp 10204 17932 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,063 basehttp 10204 31196 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,065 basehttp 10204 17932 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,067 basehttp 10204 31196 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,069 basehttp 10204 17932 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,074 basehttp 10204 31196 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,074 basehttp 10204 17932 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,078 basehttp 10204 17932 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,078 basehttp 10204 31196 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,084 basehttp 10204 17932 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2026-04-21 10:12:43,084 basehttp 10204 31196 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2026-04-21 10:13:07,118 basehttp 10204 4200 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 12667
+INFO 2026-04-21 10:13:07,174 basehttp 10204 4200 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:13:22,032 basehttp 10204 4200 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-21 10:13:22,121 basehttp 10204 4200 "GET /admin/tcourse/category/ HTTP/1.1" 200 10971
+INFO 2026-04-21 10:13:22,171 basehttp 10204 4200 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-21 10:13:29,455 basehttp 10204 31196 "GET /tcourse/category/ HTTP/1.1" 200 11422
+INFO 2026-04-21 10:14:19,248 autoreload 10204 30624 D:\p3\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-21 10:14:19,748 autoreload 10272 20944 Watching for file changes with StatReloader
+INFO 2026-04-21 10:14:39,233 autoreload 10272 20944 D:\p3\p3\myproject\tcourse\admin.py changed, reloading.
+INFO 2026-04-21 10:14:39,714 autoreload 22160 20428 Watching for file changes with StatReloader
+INFO 2026-04-21 10:14:47,609 autoreload 22160 20428 D:\p3\p3\myproject\tcourse\admin.py changed, reloading.
+INFO 2026-04-21 10:14:48,128 autoreload 17976 11680 Watching for file changes with StatReloader
+INFO 2026-04-21 10:15:03,435 autoreload 17976 11680 D:\p3\p3\myproject\tcourse\models.py changed, reloading.
+INFO 2026-04-21 10:15:04,027 autoreload 3660 21384 Watching for file changes with StatReloader
+INFO 2026-04-21 10:15:20,330 autoreload 5324 28400 Watching for file changes with StatReloader
+INFO 2026-04-21 10:17:41,807 autoreload 5324 28400 D:\p3\p3\myproject\myproject\settings\dev.py changed, reloading.

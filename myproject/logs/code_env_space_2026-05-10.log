@@ -1,0 +1,1129 @@
+INFO 2026-05-10 19:19:45,914 autoreload 15116 4524 Watching for file changes with StatReloader
+INFO 2026-05-10 19:19:52,618 log 15116 7784 "OPTIONS /tcourse/recate/?floor=undefined HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,618 log 15116 14420 "OPTIONS /tcourse/nav/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,618 log 15116 1196 "OPTIONS /tcourse/cate/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,618 log 15116 14092 "OPTIONS /tcourse/banner/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,619 log 15116 14756 "OPTIONS /tcourse/recate/?floor=1 HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,620 log 15116 12312 "OPTIONS /tcourse/tags/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,621 log 15116 7784 "OPTIONS /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,621 log 15116 14420 "OPTIONS /tcourse/recate/?floor=2 HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,658 log 15116 14092 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:19:52,681 log 15116 14756 "GET /tcourse/banner/ HTTP/1.1" 200 507
+INFO 2026-05-10 19:19:52,691 log 15116 7784 "GET /tcourse/tags/ HTTP/1.1" 200 736
+INFO 2026-05-10 19:19:52,730 log 15116 14420 "GET /tcourse/recate/?floor=1 HTTP/1.1" 200 280
+INFO 2026-05-10 19:19:52,739 log 15116 14420 "OPTIONS /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,745 log 15116 14756 "GET /tcourse/recate/?floor=2 HTTP/1.1" 200 334
+INFO 2026-05-10 19:19:52,753 log 15116 14756 "OPTIONS /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 0
+INFO 2026-05-10 19:19:52,778 log 15116 12312 "GET /tcourse/cate/ HTTP/1.1" 200 577
+INFO 2026-05-10 19:19:52,804 log 15116 14756 "GET /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 870
+INFO 2026-05-10 19:19:52,811 log 15116 14420 "GET /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 1211
+ERROR 2026-05-10 19:19:52,861 log 15116 14092 Internal Server Error: /tcourse/courses/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 94, in get
+    courses = Courses.objects.filter(is_delete=False,is_recommend=True,floor=floor,top_category=category).all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:19:52,862 log 15116 1196 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:19:52,876 log 15116 14092 "GET /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 500 22943
+ERROR 2026-05-10 19:19:52,885 log 15116 1196 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+ERROR 2026-05-10 19:19:52,916 log 15116 1196 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:19:52,923 log 15116 1196 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+INFO 2026-05-10 19:19:53,005 log 15116 15160 "GET /upload/upload/banner/%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,016 log 15116 15160 "GET /upload/upload/tag/%E8%AF%BE%E7%A8%8B%E5%9B%BE.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,037 log 15116 8996 "GET /upload/upload/tag/%E5%A4%B4%E5%83%8F.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,042 log 15116 1220 "GET /upload/upload/tag/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,044 log 15116 15160 "GET /upload/upload/course/88.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,051 log 15116 6176 "GET /upload/upload/tag/%E7%A1%85%E8%B0%B7%E5%AE%9E%E4%B9%A0%E7%94%9F.JPG HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,054 log 15116 15092 "GET /upload/upload/tag/toutiao%E5%A4%B4%E5%83%8F.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,055 log 15116 8996 "GET /upload/upload/course/33_C0lHZ9u.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,057 log 15116 1220 "GET /upload/upload/course/22.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,061 log 15116 15208 "GET /upload/upload/course/77.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,076 log 15116 15208 "GET /upload/upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,076 log 15116 8996 "GET /upload/upload/banner/%E5%8C%96%E7%B9%81%E4%B8%BA%E7%AE%80.jpg HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,077 log 15116 6176 "GET /upload/upload/course/66_Df2ervh.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,077 log 15116 15092 "GET /upload/upload/course/33_TXD8PvT.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,080 log 15116 1220 "GET /upload/upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 304 0
+INFO 2026-05-10 19:19:53,089 log 15116 1220 "GET /upload/upload/course/22_yL6WNRi.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:20:00,668 log 15116 14092 "OPTIONS /tcourse/detail/7 HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:00,671 log 15116 1196 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:20:00,722 log 15116 14092 "GET /tcourse/detail/7 HTTP/1.1" 200 4101
+INFO 2026-05-10 19:20:00,750 log 15116 1220 "GET /upload/upload/teacher/2.png HTTP/1.1" 304 0
+INFO 2026-05-10 19:20:01,787 log 15116 14092 "OPTIONS /tcourse/cart/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:01,826 log 15116 14092 "POST /tcourse/cart/ HTTP/1.1" 200 42
+INFO 2026-05-10 19:20:04,577 log 15116 14092 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:20:04,581 log 15116 14092 "OPTIONS /tcourse/cart/?user_id=5 HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:04,587 log 15116 14092 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 2010
+INFO 2026-05-10 19:20:12,646 log 15116 14092 "OPTIONS /tcourse/toggle/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:12,650 log 15116 14092 "POST /tcourse/toggle/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:20:12,662 log 15116 14092 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 2010
+INFO 2026-05-10 19:20:18,121 log 15116 14092 "OPTIONS /tcourse/update-validity/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:18,126 log 15116 14092 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:20:25,957 log 15116 14092 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:20:27,391 log 15116 14092 "OPTIONS /tcourse/mycart/?user_id=5 HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:27,393 log 15116 1196 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:20:27,410 log 15116 14092 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 356
+INFO 2026-05-10 19:20:27,428 log 15116 14092 "OPTIONS /tcourse/coupon/?tmoney=3059.64 HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:27,445 log 15116 14092 "GET /tcourse/coupon/?tmoney=3059.64 HTTP/1.1" 200 135
+INFO 2026-05-10 19:20:48,520 log 15116 14092 "OPTIONS /tcourse/orders/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:48,617 log 15116 14092 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 19:20:48,629 log 15116 14092 "OPTIONS /tcourse/pay/ HTTP/1.1" 200 0
+INFO 2026-05-10 19:20:48,664 log 15116 14092 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 19:21:53,820 autoreload 15116 4524 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:21:55,003 autoreload 3380 1104 Watching for file changes with StatReloader
+INFO 2026-05-10 19:21:58,659 autoreload 3380 1104 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:21:59,546 autoreload 11820 13960 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:04,197 autoreload 11820 13960 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:05,016 autoreload 14288 14548 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:10,785 autoreload 14288 14548 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:11,563 autoreload 13836 4540 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:13,933 autoreload 13836 4540 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:14,681 autoreload 5608 15052 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:18,345 autoreload 5608 15052 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:19,154 autoreload 12896 14276 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:22,679 autoreload 12896 14276 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:23,541 autoreload 14924 1104 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:26,018 autoreload 14924 1104 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:26,811 autoreload 2228 448 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:33,638 autoreload 2228 448 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:34,386 autoreload 14524 14476 Watching for file changes with StatReloader
+INFO 2026-05-10 19:22:36,741 autoreload 14524 14476 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:22:37,820 autoreload 13092 9344 Watching for file changes with StatReloader
+INFO 2026-05-10 19:23:00,542 log 13092 11436 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 19:23:00,542 log 13092 1728 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:23:00,575 log 13092 1728 "OPTIONS /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 0
+INFO 2026-05-10 19:23:00,594 log 13092 1728 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 19:23:13,016 log 13092 11436 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 19:23:13,016 log 13092 1728 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:23:13,099 log 13092 1728 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 19:23:31,889 log 13092 11436 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 19:23:31,889 log 13092 1728 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:23:31,963 log 13092 11436 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 19:23:57,971 log 13092 11436 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:23:57,998 log 13092 11436 "GET /tcourse/banner/ HTTP/1.1" 200 507
+INFO 2026-05-10 19:23:58,031 log 13092 11436 "GET /tcourse/tags/ HTTP/1.1" 200 736
+INFO 2026-05-10 19:23:58,084 log 13092 13672 "GET /tcourse/cate/ HTTP/1.1" 200 577
+INFO 2026-05-10 19:23:58,102 log 13092 11436 "GET /tcourse/recate/?floor=1 HTTP/1.1" 200 280
+INFO 2026-05-10 19:23:58,158 log 13092 13672 "GET /tcourse/recate/?floor=2 HTTP/1.1" 200 334
+ERROR 2026-05-10 19:23:58,189 log 13092 1728 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:23:58,239 log 13092 11436 Internal Server Error: /tcourse/courses/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 94, in get
+    courses = Courses.objects.filter(is_delete=False,is_recommend=True,floor=floor,top_category=category).all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:23:58,253 log 13092 1728 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+ERROR 2026-05-10 19:23:58,297 log 13092 11436 "GET /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 500 22943
+INFO 2026-05-10 19:23:58,478 log 13092 11436 "GET /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 870
+INFO 2026-05-10 19:23:58,478 log 13092 13672 "GET /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 1211
+ERROR 2026-05-10 19:23:58,540 log 13092 1728 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 19:23:58,553 log 13092 1728 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+INFO 2026-05-10 19:23:59,991 log 13092 1728 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:24:00,004 log 13092 1728 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 1351
+INFO 2026-05-10 19:24:36,474 log 13092 1728 "POST /tcourse/toggle/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:24:36,509 log 13092 1728 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 1351
+INFO 2026-05-10 19:24:38,503 log 13092 1728 "POST /tcourse/toggle/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:24:38,525 log 13092 1728 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 1351
+INFO 2026-05-10 19:24:41,793 log 13092 1728 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:24:41,794 log 13092 13672 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 344
+INFO 2026-05-10 19:24:41,855 log 13092 13672 "OPTIONS /tcourse/coupon/?tmoney=3044.39 HTTP/1.1" 200 0
+INFO 2026-05-10 19:24:41,876 log 13092 13672 "GET /tcourse/coupon/?tmoney=3044.39 HTTP/1.1" 200 135
+INFO 2026-05-10 19:24:46,236 log 13092 13672 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 19:24:46,277 log 13092 13672 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 19:38:03,326 log 13092 14388 "POST /tcourse/pay/?orderno=841274563970076672 HTTP/1.1" 200 27
+INFO 2026-05-10 19:38:34,979 log 13092 14388 "POST /tcourse/pay/?orderno=841274563970076672 HTTP/1.1" 200 943
+INFO 2026-05-10 19:42:02,697 log 13092 15408 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=841274563970076672&method=alipay.trade.page.pay.return&total_amount=1.00&sign=ebuYke0mjTn57sfJgoW21YvjKjD%2FF1nf79KG0eO99y6ZI53PSYwXZDujlgTHWvTPv1XAzk4h6s1omlko0EYLIHeDyuJ5iFM5BSxrDe79zmzF%2FWjH6J6c9wf3BaAb%2BRi2lH%2BmppZYZJ3eZAqzoD0zjH8icsPDN5S3fYH%2BQyLm%2B7iIV%2F8v8C0PoqfUQi1SJRmK4%2F8YAOezVYdHddDecPJYpBLzjZkBBQTxRn3xEjPqaHzNrWeZUk6FATENz4iDXVbpwfEcaHwHMLScHxDTqL3ZG2wH8tmoFWLR2M96fTf4j9h3jS4XIKBfSY3ScaFKPFVnM5HNqVb1KDL5scI%2BSDNu2A%3D%3D&trade_no=2026051022001459060508511749&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+19%3A41%3A57 HTTP/1.1" 302 0
+INFO 2026-05-10 19:44:42,684 log 13092 1540 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 19:44:42,684 log 13092 15756 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:44:42,700 log 13092 15756 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 19:49:37,456 log 13092 1540 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 19:49:37,456 log 13092 15756 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:49:37,559 log 13092 15756 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 19:49:38,700 log 13092 15756 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:49:38,706 log 13092 15756 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 703
+INFO 2026-05-10 19:49:40,411 log 13092 15756 "POST /tcourse/toggle/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:49:40,427 log 13092 15756 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 703
+INFO 2026-05-10 19:49:43,054 log 13092 15756 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 19:49:44,928 log 13092 15756 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:49:44,928 log 13092 1540 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 208
+INFO 2026-05-10 19:49:44,984 log 13092 1540 "OPTIONS /tcourse/coupon/?tmoney=33.96 HTTP/1.1" 200 0
+INFO 2026-05-10 19:49:44,998 log 13092 1540 "GET /tcourse/coupon/?tmoney=33.96 HTTP/1.1" 200 38
+INFO 2026-05-10 19:49:53,779 log 13092 1540 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 19:49:53,844 log 13092 1540 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 19:50:52,968 log 13092 14388 "POST /tcourse/pay/ HTTP/1.1" 200 939
+INFO 2026-05-10 19:51:35,592 log 13092 1768 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=841280887067906048&method=alipay.trade.page.pay.return&total_amount=1.00&sign=VkiEnwCwuF51Gq%2FBNVqzQ7IV8WAg0n%2FYqAJ49sOXqUWVBwg3PVSDMW33cwCqbqBghhmA1NZNvgUw83421uuHu0K3kbfsmUXYW89NpE3jMb2JDbjcwCtrudX0phW9zWGHjc2sOrnqTJVFVA44zCbRWqnDRtfHCY2uPihm7CCroxJKWV8VEgWmcequQ98vAAa29pFoOykvdE2SFlIljwLS2cuXerz%2BTmwdhV9XF8IHJsND3c%2F11pDlfnis7j7Vc7KQH3zlgDQ9kfrw7LWYfHIGQlWxh8te1jUnHiDfUY64ETRV9PPWktB8t4zhExN%2FLE5dMkbTkOrdFJ2Wg9yyzdHBCQ%3D%3D&trade_no=2026051022001459060508511750&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+19%3A51%3A30 HTTP/1.1" 302 0
+INFO 2026-05-10 19:55:18,889 autoreload 13092 9344 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:55:20,167 autoreload 15216 16108 Watching for file changes with StatReloader
+INFO 2026-05-10 19:55:28,339 autoreload 15216 16108 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:55:29,148 autoreload 1808 12944 Watching for file changes with StatReloader
+INFO 2026-05-10 19:55:31,524 autoreload 1808 12944 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:55:32,251 autoreload 9324 3356 Watching for file changes with StatReloader
+INFO 2026-05-10 19:56:09,121 autoreload 9324 3356 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:56:10,100 autoreload 13188 3316 Watching for file changes with StatReloader
+INFO 2026-05-10 19:56:22,558 autoreload 13188 3316 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:56:23,438 autoreload 1540 15916 Watching for file changes with StatReloader
+INFO 2026-05-10 19:56:43,456 log 1540 5008 "POST /tcourse/pay/ HTTP/1.1" 200 943
+INFO 2026-05-10 19:57:26,704 autoreload 1540 15916 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:57:27,766 autoreload 5408 14420 Watching for file changes with StatReloader
+INFO 2026-05-10 19:57:29,104 log 5408 7988 "POST /tcourse/pay/ HTTP/1.1" 200 941
+INFO 2026-05-10 19:58:09,775 log 5408 15608 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=841273567189536768&method=alipay.trade.page.pay.return&total_amount=1.00&sign=dZO93p4UJn6xOe1OwbW96IzLaT%2BbCIFsF3XAzxD4KylZ0v6hRS82RSxeV99DyB0gxnQje05fEtqvIG0pLXt1QIoWYCj9evWm8sa5M3rcpbA%2FLYtXmX8BYhRiD6ZKiEZLU9ir%2BGlK20vx%2FZ%2BmlvNHkhDWKntSFNR57Aw3%2FVlXiIpqwx8KusD3GigYYtuQj8KYveKAVSO0QCHstsp9yGKQ7bMUXHePe5I4BB68IoTmWVsAxjIIZJvSimPxJv6GTPVZTb4HoNBwauFF6Z3iqOEtS%2B2%2F%2Bqi8LaMM9JFkUdqcRtS1nJoVHo2HmM1I%2BrU3CyD5MR0yAzw3NkUhKe%2FzZfrBPw%3D%3D&trade_no=2026051022001459060508516307&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+19%3A58%3A05 HTTP/1.1" 302 0
+INFO 2026-05-10 19:58:10,519 log 5408 1052 "OPTIONS /tcourse/orders/?order_number=841273567189536768 HTTP/1.1" 200 0
+INFO 2026-05-10 19:58:10,522 log 5408 12808 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 19:58:10,534 log 5408 1052 "GET /tcourse/orders/?order_number=841273567189536768 HTTP/1.1" 200 235
+INFO 2026-05-10 19:59:54,537 autoreload 5408 14420 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:59:55,341 autoreload 5504 9620 Watching for file changes with StatReloader
+INFO 2026-05-10 19:59:57,773 autoreload 5504 9620 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 19:59:58,636 autoreload 5300 11604 Watching for file changes with StatReloader
+INFO 2026-05-10 20:01:48,170 autoreload 5300 11604 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:01:48,975 autoreload 15404 9200 Watching for file changes with StatReloader
+INFO 2026-05-10 20:02:05,872 autoreload 15404 9200 E:\AICM\demo\p3\myproject\tools\pay.py changed, reloading.
+INFO 2026-05-10 20:02:06,595 autoreload 7988 15836 Watching for file changes with StatReloader
+INFO 2026-05-10 20:02:22,313 autoreload 7988 15836 E:\AICM\demo\p3\myproject\tools\pay.py changed, reloading.
+INFO 2026-05-10 20:02:23,128 autoreload 1588 15772 Watching for file changes with StatReloader
+INFO 2026-05-10 20:05:45,444 log 1588 8536 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:05:45,444 log 1588 14884 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 20:05:45,481 log 1588 14884 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 20:08:59,649 log 1588 16048 "POST /tcourse/pay/ HTTP/1.1" 200 27
+INFO 2026-05-10 20:11:16,401 log 1588 16048 "POST /tcourse/pay/ HTTP/1.1" 200 27
+INFO 2026-05-10 20:11:28,062 log 1588 16048 "POST /tcourse/pay/ HTTP/1.1" 200 947
+INFO 2026-05-10 20:12:13,888 log 1588 16600 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=840896071096995840&method=alipay.trade.page.pay.return&total_amount=1.00&sign=fEsxlNKDxrhlcFQ%2Br2lfYywvcTlYvwUKXLBOIIVSrC3xnQeIlHxJoCzLrRvmZvQcuzjMpAfdZZHpH141%2FHiIjnOKPvlLSwYkFSLNojW%2F40PZ%2BWnVnIxwJKxyrGwLbzGvowUVZNMQFtYDbIIAHBZshQoxc%2BzrxPtp%2FAMwWxziyDntCnfmUtcTqTb8SQ9fLYzokThIDT5KV4dd44Jek8i4QyYKZ94eEXAoyfXMtc0QJiqMrRM1HmNeG1Z2RVf6CSJA%2FopUzB7rqqDlS9di6FUt4vRShl86qHFpHoJwcA1UlVJFmHTDDx9kVa1v4TK8frn6hMWV7t9xuN8fxQU2HN4jVw%3D%3D&trade_no=2026051022001459060508514789&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A12%3A08 HTTP/1.1" 302 0
+INFO 2026-05-10 20:13:26,181 autoreload 1588 15772 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:13:26,999 autoreload 2120 15764 Watching for file changes with StatReloader
+INFO 2026-05-10 20:14:11,897 autoreload 2120 15764 E:\AICM\demo\p3\myproject\tools\common.py changed, reloading.
+INFO 2026-05-10 20:14:12,662 autoreload 16872 16868 Watching for file changes with StatReloader
+INFO 2026-05-10 20:14:15,198 autoreload 16872 16868 E:\AICM\demo\p3\myproject\tools\common.py changed, reloading.
+INFO 2026-05-10 20:14:16,063 autoreload 17228 17308 Watching for file changes with StatReloader
+INFO 2026-05-10 20:14:39,539 autoreload 17228 17308 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:14:40,281 autoreload 16336 16600 Watching for file changes with StatReloader
+INFO 2026-05-10 20:14:43,697 autoreload 16336 16600 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:14:44,433 autoreload 2828 13836 Watching for file changes with StatReloader
+INFO 2026-05-10 20:15:18,027 log 2828 16956 "POST /tcourse/pay/ HTTP/1.1" 200 937
+INFO 2026-05-10 20:15:55,773 log 2828 5504 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=840892121081843712&method=alipay.trade.page.pay.return&total_amount=1.00&sign=GR7vVbwoWhfPo6ofPsPUcEP4Vyie%2FyJF5P4U9Ltauivpn6VJytgCtmMorjJ42qq%2BwXuvXUmkdxo90K0ClYTUVBccLzFibcnvgQ8Qg2b6hw%2B6myZjGGCGsaV0gXBsb6UFRN%2BrjaoBCHZN%2FYfKHmRlZr2XWsPfek5puqbhvGFiiiK4yNeRyWHvzqkEXFcOVfWO%2Ba2fznViyb%2FYapmxqMutCEjxEWrQr9tBNZLVG1rg%2BPuwlkEM1CU8Y8ue6B26Rs0EIubHtz%2BSh5GrvgMglpRc21ZS%2BJC0Nbr3LkqbAHgMsmEzm4J%2B44ovEoxVeVQ6pbzTsVXZPdB%2BSztInnuKFcINDw%3D%3D&trade_no=2026051022001459060508514790&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A15%3A51 HTTP/1.1" 302 0
+INFO 2026-05-10 20:17:18,721 autoreload 2828 13836 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:17:19,628 autoreload 17240 17280 Watching for file changes with StatReloader
+INFO 2026-05-10 20:18:45,293 log 17240 16920 "POST /tcourse/pay/ HTTP/1.1" 200 949
+INFO 2026-05-10 20:19:27,979 log 17240 16708 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=840892201876721664&method=alipay.trade.page.pay.return&total_amount=1.00&sign=EEYfPN%2B8JMCwtcKyMQAwqAoVXwhv1g8emq4Idj2mrAO5NwlOQhqobZV5CmpVtH%2B18zt8cosi9W0kNAL9hKceNUtg3pReOw%2FSqlQDPpjv1pZ5rAD5Jn0sy6b%2FNloT9DZrbNpfZsA5WhRoG2IFxXhFvmpmBPZ5UPmbZo9oEnCnA7eMeP1TSxCr4gJWNxVESJUiKhvrOpQ69ciUcc2izywKf3iMHd6lVEmVUedrhvZlz7gttNixufd%2Fjqqa9cSdDFRSQxMx2VWGCgG0WYrSUYpLaZ30Saa%2FAkHAPK1VIWB9rkjU0B5vwToKKGgmaSGDXsE8Cvlujj9%2FRAXCe3JMNv0hsA%3D%3D&trade_no=2026051022001459060508513133&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A19%3A23 HTTP/1.1" 302 0
+INFO 2026-05-10 20:20:23,253 autoreload 17240 17280 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:20:24,148 autoreload 2244 7272 Watching for file changes with StatReloader
+INFO 2026-05-10 20:21:12,924 log 2244 16492 "POST /tcourse/pay/ HTTP/1.1" 200 941
+INFO 2026-05-10 20:21:49,909 log 2244 16492 "POST /tcourse/pay/?orderno=840893309265252352 HTTP/1.1" 200 941
+INFO 2026-05-10 20:22:25,718 log 2244 6128 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=840893309265252352&method=alipay.trade.page.pay.return&total_amount=1.00&sign=IcvJ67svLJdmhg9cX22UoiXNcU36U%2BoE8dHmFKc6doFg77qV6iNbEHaa1PcZM1%2FkAgHESF1ZCZIPWlyxv%2BmsRMvsrTqtih%2B5ZNcYhP0rAQSX7jVTj%2FPcFhHl%2BAWeiy%2FceZ6aqyKbOLTEAXcUpGvHpwyyBGON724ucK9Nb7pOshS90gmZLCPBhI0VL%2BtPz61dcmSmwPimVg%2FtqjzqkDIpA08Pp97qCS3P9lXMMr3CjxZSwhkFvCJjXT%2BjUspwm1jMtWuzgmbstbw9X7F3lXIinu4PY%2F1a1Us6%2B8n395%2FxsVwmKkqb7SzTWRT9fmheFRPjzZkQxqfaJKSaSzpP78FTiw%3D%3D&trade_no=2026051022001459060508516308&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A22%3A20 HTTP/1.1" 302 0
+INFO 2026-05-10 20:23:10,176 autoreload 2244 7272 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:23:10,920 autoreload 5696 272 Watching for file changes with StatReloader
+INFO 2026-05-10 20:26:00,529 log 5696 7728 "POST /tcourse/pay/?orderno=840896071096995840 HTTP/1.1" 200 949
+INFO 2026-05-10 20:26:21,197 log 5696 7728 "POST /tcourse/pay/?orderno=840895516920385536 HTTP/1.1" 200 957
+INFO 2026-05-10 20:27:09,440 log 5696 16216 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 54
+INFO 2026-05-10 20:27:09,441 log 5696 4820 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:27:09,496 log 5696 4820 "GET /tcourse/coupon/?tmoney=0 HTTP/1.1" 200 38
+INFO 2026-05-10 20:27:14,863 log 5696 4820 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:27:14,911 log 5696 4820 "GET /tcourse/banner/ HTTP/1.1" 200 507
+INFO 2026-05-10 20:27:14,947 log 5696 4820 "GET /tcourse/tags/ HTTP/1.1" 200 736
+INFO 2026-05-10 20:27:14,964 log 5696 14836 "GET /tcourse/cate/ HTTP/1.1" 200 577
+INFO 2026-05-10 20:27:15,030 log 5696 4820 "GET /tcourse/recate/?floor=1 HTTP/1.1" 200 280
+INFO 2026-05-10 20:27:15,032 log 5696 14836 "GET /tcourse/recate/?floor=2 HTTP/1.1" 200 334
+INFO 2026-05-10 20:27:15,150 log 5696 14836 "GET /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 1211
+ERROR 2026-05-10 20:27:15,171 log 5696 16216 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 20:27:15,211 log 5696 4820 Internal Server Error: /tcourse/courses/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 94, in get
+    courses = Courses.objects.filter(is_delete=False,is_recommend=True,floor=floor,top_category=category).all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+INFO 2026-05-10 20:27:15,218 log 5696 14836 "GET /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 870
+ERROR 2026-05-10 20:27:15,247 log 5696 16216 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+ERROR 2026-05-10 20:27:15,276 log 5696 4820 "GET /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 500 22943
+ERROR 2026-05-10 20:27:15,339 log 5696 16216 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 20:27:15,348 log 5696 16216 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+INFO 2026-05-10 20:27:17,252 log 5696 16216 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:27:17,297 log 5696 4820 "GET /tcourse/detail/7 HTTP/1.1" 200 4101
+INFO 2026-05-10 20:27:18,198 log 5696 4820 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:27:18,207 log 5696 4820 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 373
+INFO 2026-05-10 20:27:20,280 log 5696 4820 "POST /tcourse/toggle/ HTTP/1.1" 200 33
+INFO 2026-05-10 20:27:20,295 log 5696 4820 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 373
+INFO 2026-05-10 20:27:21,748 log 5696 16216 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 216
+INFO 2026-05-10 20:27:21,749 log 5696 4820 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:27:21,827 log 5696 4820 "OPTIONS /tcourse/coupon/?tmoney=3834.69 HTTP/1.1" 200 0
+INFO 2026-05-10 20:27:21,835 log 5696 4820 "GET /tcourse/coupon/?tmoney=3834.69 HTTP/1.1" 200 135
+INFO 2026-05-10 20:27:26,558 log 5696 4820 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 20:27:26,589 log 5696 4820 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 20:28:08,454 log 5696 7728 "POST /tcourse/pay/?orderno=841290335958208512 HTTP/1.1" 200 935
+INFO 2026-05-10 20:28:41,556 log 5696 7728 "POST /tcourse/pay/?orderno=841290335958208512 HTTP/1.1" 200 947
+INFO 2026-05-10 20:29:31,944 log 5696 4820 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 20:29:31,969 log 5696 4820 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 20:30:02,535 log 5696 7728 "POST /tcourse/pay/?orderno=841290861949096000 HTTP/1.1" 200 949
+INFO 2026-05-10 20:32:20,706 autoreload 5696 272 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:32:21,665 autoreload 17092 15556 Watching for file changes with StatReloader
+INFO 2026-05-10 20:33:35,587 autoreload 17092 15556 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:33:36,397 autoreload 15188 16288 Watching for file changes with StatReloader
+INFO 2026-05-10 20:35:14,801 log 15188 16440 "POST /tcourse/orders/ HTTP/1.1" 200 68
+INFO 2026-05-10 20:35:14,814 log 15188 16440 "POST /tcourse/pay/ HTTP/1.1" 200 26
+INFO 2026-05-10 20:36:18,219 autoreload 15188 16288 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:36:19,085 autoreload 16412 4212 Watching for file changes with StatReloader
+INFO 2026-05-10 20:36:44,040 log 16412 1540 "POST /tcourse/orders/ HTTP/1.1" 200 70
+INFO 2026-05-10 20:36:44,134 log 16412 1540 "POST /tcourse/pay/ HTTP/1.1" 200 937
+INFO 2026-05-10 20:37:36,118 log 16412 16812 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=841292674240745472&method=alipay.trade.page.pay.return&total_amount=1.00&sign=FSrrP%2FqewS%2BHwKB9LtWQJl0wOrxmgH5G8KcsKE1aXpxntGXKJNMfqYa%2FZ%2FA3h0PKJgpM8pH%2BM747qTQ%2BjtMZmITN6XBzZ2CnPwC9y6MnsB80GbID1EXi3u2ue7I1wxFj%2FRfNZXoCsHfN5w5Vy6IePVsqddzhu0ADj%2F7bF2rqb5tbsMVhr6ATaNjMh2ebZouU2tANL9Wg2ks1jeFfztREQJtEWbokVsU6rQk79m3tEAodTNiWVWNNetc8htnmkvlO8Cybo4Pan8pgfSn3VOeR3X1n2E7u5E5F8gLlPoAiP0iBBzKFw8FQY%2F1NpV0JEI7ZzBG5a2jgRfLgjFodA8KPwg%3D%3D&trade_no=2026051022001459060508514791&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A37%3A31 HTTP/1.1" 302 0
+INFO 2026-05-10 20:37:36,605 log 16412 1540 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:37:36,605 log 16412 17220 "OPTIONS /tcourse/orders/?order_number=841292674240745472 HTTP/1.1" 200 0
+INFO 2026-05-10 20:37:36,621 log 16412 1540 "GET /tcourse/orders/?order_number=841292674240745472 HTTP/1.1" 200 92
+INFO 2026-05-10 20:38:32,525 autoreload 16412 4212 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:33,365 autoreload 5800 4820 Watching for file changes with StatReloader
+INFO 2026-05-10 20:38:37,071 autoreload 5800 4820 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:37,940 autoreload 17036 6996 Watching for file changes with StatReloader
+INFO 2026-05-10 20:38:42,812 autoreload 17036 6996 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:43,547 autoreload 13656 3992 Watching for file changes with StatReloader
+INFO 2026-05-10 20:38:47,059 autoreload 13656 3992 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:48,105 autoreload 15740 17140 Watching for file changes with StatReloader
+INFO 2026-05-10 20:38:51,243 autoreload 15740 17140 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:52,345 autoreload 15916 14428 Watching for file changes with StatReloader
+INFO 2026-05-10 20:38:57,711 autoreload 15916 14428 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:38:58,683 autoreload 16952 16680 Watching for file changes with StatReloader
+INFO 2026-05-10 20:39:03,772 autoreload 16952 16680 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:39:04,995 autoreload 16884 13580 Watching for file changes with StatReloader
+INFO 2026-05-10 20:39:08,065 autoreload 16884 13580 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:39:09,043 autoreload 13004 15556 Watching for file changes with StatReloader
+INFO 2026-05-10 20:41:03,439 log 13004 13524 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:41:03,448 log 13004 8232 "GET /tcourse/orders/?order_number=841292674240745472 HTTP/1.1" 200 92
+INFO 2026-05-10 20:41:07,952 log 13004 8232 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:41:07,972 log 13004 8232 "GET /tcourse/banner/ HTTP/1.1" 200 507
+INFO 2026-05-10 20:41:07,994 log 13004 8232 "GET /tcourse/tags/ HTTP/1.1" 200 736
+INFO 2026-05-10 20:41:08,032 log 13004 16068 "GET /tcourse/cate/ HTTP/1.1" 200 577
+INFO 2026-05-10 20:41:08,055 log 13004 8232 "GET /tcourse/recate/?floor=1 HTTP/1.1" 200 280
+INFO 2026-05-10 20:41:08,085 log 13004 16068 "GET /tcourse/recate/?floor=2 HTTP/1.1" 200 334
+ERROR 2026-05-10 20:41:08,101 log 13004 13524 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 20:41:08,122 log 13004 8232 Internal Server Error: /tcourse/courses/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 94, in get
+    courses = Courses.objects.filter(is_delete=False,is_recommend=True,floor=floor,top_category=category).all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 20:41:08,127 log 13004 13524 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+ERROR 2026-05-10 20:41:08,136 log 13004 8232 "GET /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 500 22943
+INFO 2026-05-10 20:41:08,288 log 13004 13524 "GET /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 1211
+INFO 2026-05-10 20:41:08,289 log 13004 16068 "GET /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 870
+ERROR 2026-05-10 20:41:08,344 log 13004 8232 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 83, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-10 20:41:08,364 log 13004 8232 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22852
+INFO 2026-05-10 20:43:52,667 log 13004 8232 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:43:52,748 log 13004 16068 "GET /tcourse/detail/7 HTTP/1.1" 200 4101
+INFO 2026-05-10 20:43:54,148 log 13004 16068 "POST /tcourse/cart/ HTTP/1.1" 200 42
+INFO 2026-05-10 20:43:56,768 log 13004 16068 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:43:56,787 log 13004 8232 "GET /tcourse/cart/?user_id=5 HTTP/1.1" 200 366
+INFO 2026-05-10 20:44:07,413 log 13004 8232 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 20:44:09,910 log 13004 8232 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 20:44:11,741 log 13004 8232 "POST /tcourse/update-validity/ HTTP/1.1" 200 33
+INFO 2026-05-10 20:44:27,087 log 13004 8232 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:44:27,092 log 13004 16068 "GET /tcourse/mycart/?user_id=5 HTTP/1.1" 200 201
+INFO 2026-05-10 20:44:27,121 log 13004 16068 "OPTIONS /tcourse/coupon/?tmoney=2113.04 HTTP/1.1" 200 0
+INFO 2026-05-10 20:44:27,141 log 13004 16068 "GET /tcourse/coupon/?tmoney=2113.04 HTTP/1.1" 200 135
+INFO 2026-05-10 20:45:07,950 log 13004 16068 "POST /tcourse/orders/ HTTP/1.1" 200 70
+INFO 2026-05-10 20:45:08,050 log 13004 16068 "POST /tcourse/pay/ HTTP/1.1" 200 941
+INFO 2026-05-10 20:45:58,559 log 13004 8064 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=841294787880554496&method=alipay.trade.page.pay.return&total_amount=1.00&sign=fOxYyH8hNhwRknDxXslGey%2FxOKjdYvLRLwlM8pCaGHA9wVP2HvrLl6Agfd4F2L6kSBOq%2FDLDE3pNDP1chFhy0ph%2Bq%2FwrZUOaILpP7lqyDJZB%2BqasTdCW4xvHthZM4QAD%2FeCakHF5Uq0KBuc4txOtL1YIZQU2nKcMUhAX74UZDEXTFd4W0O6eVoYzxwmerB3Nd2haU4SOzf9t6RssOYvagWWrx66vaCrteoiJPnWvO7SWISmNEHVh6isXHPt8Qn6W04OMYsUoSyT2fuVX98GNLLI62DSnM0q%2FmGMq%2F9p1SCXK%2FtjDODkqoisNFpj%2Ff45h03g257TTvepbMWKn%2B3mkQw%3D%3D&trade_no=2026051022001459060508513135&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-10+20%3A45%3A53 HTTP/1.1" 302 0
+INFO 2026-05-10 20:45:58,998 log 13004 16068 "OPTIONS /tcourse/orders/?order_number=841294787880554496 HTTP/1.1" 200 0
+INFO 2026-05-10 20:45:59,012 log 13004 8232 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-10 20:45:59,022 log 13004 16068 "GET /tcourse/orders/?order_number=841294787880554496 HTTP/1.1" 200 172
+INFO 2026-05-10 20:57:00,082 autoreload 13004 15556 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:57:02,166 autoreload 4760 2596 Watching for file changes with StatReloader
+INFO 2026-05-10 20:57:08,067 autoreload 4760 2596 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:57:09,754 autoreload 5460 2008 Watching for file changes with StatReloader
+INFO 2026-05-10 20:57:14,058 autoreload 5460 2008 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-10 20:57:16,035 autoreload 16996 14400 Watching for file changes with StatReloader
+INFO 2026-05-10 20:57:49,771 autoreload 16996 14400 E:\AICM\demo\p3\myproject\tools\pay.py changed, reloading.
+INFO 2026-05-10 20:57:51,728 autoreload 2596 4760 Watching for file changes with StatReloader
+INFO 2026-05-10 20:57:55,796 autoreload 2596 4760 E:\AICM\demo\p3\myproject\tools\pay.py changed, reloading.
+INFO 2026-05-10 20:57:57,590 autoreload 17176 15716 Watching for file changes with StatReloader
+INFO 2026-05-10 20:58:01,642 autoreload 17176 15716 E:\AICM\demo\p3\myproject\tools\pay.py changed, reloading.
+INFO 2026-05-10 20:58:03,338 autoreload 17276 10676 Watching for file changes with StatReloader

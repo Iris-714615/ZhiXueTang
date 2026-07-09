@@ -1,0 +1,1816 @@
+INFO 2026-04-22 14:38:29,512 autoreload 2996 13892 Watching for file changes with StatReloader
+WARNING 2026-04-22 14:38:39,771 log 2996 16136 Not Found: /
+WARNING 2026-04-22 14:38:39,772 log 2996 16136 "GET / HTTP/1.1" 404 2564
+WARNING 2026-04-22 14:38:40,150 log 2996 16136 Not Found: /favicon.ico
+WARNING 2026-04-22 14:38:40,151 log 2996 16136 "GET /favicon.ico HTTP/1.1" 404 2615
+INFO 2026-04-22 14:38:52,348 log 2996 16136 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:38:52,409 log 2996 16136 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4080
+INFO 2026-04-22 14:38:52,593 log 2996 3744 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-22 14:38:52,598 log 2996 16136 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-22 14:38:52,600 log 2996 12340 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-22 14:38:52,606 log 2996 12628 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-22 14:38:52,608 log 2996 7628 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-22 14:38:52,611 log 2996 12764 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-22 14:38:52,612 log 2996 12340 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-22 14:39:02,703 log 2996 12340 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4248
+INFO 2026-04-22 14:40:38,651 autoreload 14436 14440 Watching for file changes with StatReloader
+INFO 2026-04-22 14:40:45,554 log 14436 10068 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:40:45,621 log 14436 10068 "GET /admin/ HTTP/1.1" 200 7703
+INFO 2026-04-22 14:40:45,771 log 14436 10068 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-04-22 14:40:45,782 log 14436 10068 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-22 14:40:45,782 log 14436 1808 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-22 14:40:52,991 log 14436 1808 "GET /admin/tcourse/navcate/ HTTP/1.1" 200 8908
+INFO 2026-04-22 14:40:53,014 log 14436 1808 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-04-22 14:40:53,028 log 14436 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:40:53,041 log 14436 10068 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-22 14:40:53,041 log 14436 1808 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-22 14:40:53,049 log 14436 16164 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-22 14:40:53,052 log 14436 1808 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-22 14:40:53,054 log 14436 10288 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-22 14:40:53,055 log 14436 10068 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-22 14:40:53,061 log 14436 2168 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-22 14:40:53,062 log 14436 5168 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-22 14:40:53,099 log 14436 10068 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-22 14:40:53,145 log 14436 10068 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-04-22 14:40:55,053 log 14436 10068 "GET /admin/tcourse/navcate/add/ HTTP/1.1" 200 11317
+INFO 2026-04-22 14:40:55,096 log 14436 2168 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-22 14:40:55,096 log 14436 10068 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-22 14:40:55,104 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:40:55,107 log 14436 10068 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-22 14:40:55,114 log 14436 5168 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-22 14:43:39,193 log 14436 5168 "POST /admin/tcourse/navcate/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:43:39,254 log 14436 5168 "GET /admin/tcourse/navcate/ HTTP/1.1" 200 10413
+INFO 2026-04-22 14:43:39,319 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:43:39,346 log 14436 5168 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-04-22 14:43:45,858 log 14436 5168 "GET /admin/tcourse/navcate/add/ HTTP/1.1" 200 11317
+INFO 2026-04-22 14:43:45,900 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:44:06,177 log 14436 5168 "POST /admin/tcourse/navcate/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:44:06,226 log 14436 5168 "GET /admin/tcourse/navcate/ HTTP/1.1" 200 10700
+INFO 2026-04-22 14:44:06,278 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:44:08,200 log 14436 5168 "GET /admin/tcourse/navcate/add/ HTTP/1.1" 200 11317
+INFO 2026-04-22 14:44:08,254 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:44:28,622 log 14436 5168 "POST /admin/tcourse/navcate/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:44:28,672 log 14436 5168 "GET /admin/tcourse/navcate/ HTTP/1.1" 200 10987
+INFO 2026-04-22 14:44:28,731 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:44:32,642 log 14436 5168 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 13645
+INFO 2026-04-22 14:44:32,667 log 14436 10068 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-22 14:44:32,675 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:05,578 log 14436 5168 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:45:05,609 log 14436 5168 "GET /admin/tcourse/category/ HTTP/1.1" 200 10447
+INFO 2026-04-22 14:45:05,670 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:07,520 log 14436 5168 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 13695
+INFO 2026-04-22 14:45:07,551 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:21,240 log 14436 5168 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:45:21,276 log 14436 5168 "GET /admin/tcourse/category/ HTTP/1.1" 200 10737
+INFO 2026-04-22 14:45:21,323 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:23,006 log 14436 5168 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 13745
+INFO 2026-04-22 14:45:23,036 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:48,922 log 14436 5168 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:45:48,951 log 14436 5168 "GET /admin/tcourse/category/ HTTP/1.1" 200 11027
+INFO 2026-04-22 14:45:49,046 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:45:51,348 log 14436 5168 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 13795
+INFO 2026-04-22 14:45:51,392 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:46:26,200 log 14436 5168 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:46:26,259 log 14436 5168 "GET /admin/tcourse/category/ HTTP/1.1" 200 11317
+INFO 2026-04-22 14:46:26,329 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:46:30,009 log 14436 5168 "GET /admin/tcourse/category/add/ HTTP/1.1" 200 13845
+INFO 2026-04-22 14:46:30,076 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 14:46:47,731 log 14436 5168 "POST /admin/tcourse/category/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 14:46:47,782 log 14436 5168 "GET /admin/tcourse/category/ HTTP/1.1" 200 11607
+INFO 2026-04-22 14:46:47,816 log 14436 5168 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2026-04-22 14:46:54,743 log 14436 5168 Not Found: /
+WARNING 2026-04-22 14:46:54,745 log 14436 5168 "GET / HTTP/1.1" 404 2564
+WARNING 2026-04-22 14:47:10,828 log 14436 5168 Not Found: /tcourse/
+WARNING 2026-04-22 14:47:10,831 log 14436 5168 "GET /tcourse/ HTTP/1.1" 404 3218
+INFO 2026-04-22 14:47:22,733 log 14436 5168 "GET /tcourse/nav/ HTTP/1.1" 200 5871
+INFO 2026-04-22 14:47:22,799 log 14436 10068 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2026-04-22 14:47:22,802 log 14436 8548 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2026-04-22 14:47:22,803 log 14436 2044 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2026-04-22 14:47:22,815 log 14436 10068 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2026-04-22 14:47:22,816 log 14436 1380 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2026-04-22 14:47:22,821 log 14436 5168 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2026-04-22 14:47:22,823 log 14436 8548 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2026-04-22 14:47:22,830 log 14436 10068 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2026-04-22 14:47:22,843 log 14436 12664 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2026-04-22 14:47:22,845 log 14436 2044 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2026-04-22 14:47:22,849 log 14436 1380 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2026-04-22 14:47:22,856 log 14436 10068 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2026-04-22 14:48:13,657 log 14436 10068 Not Found: /tcourse/
+WARNING 2026-04-22 14:48:13,659 log 14436 10068 "GET /tcourse/ HTTP/1.1" 404 3218
+INFO 2026-04-22 14:48:24,929 log 14436 10068 "GET /tcourse/category/ HTTP/1.1" 200 6204
+INFO 2026-04-22 16:14:26,986 autoreload 7476 10632 Watching for file changes with StatReloader
+INFO 2026-04-22 16:54:29,597 autoreload 17276 12696 Watching for file changes with StatReloader
+INFO 2026-04-22 16:55:36,782 log 17276 5440 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2026-04-22 16:55:36,833 log 17276 5440 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 16:55:36,873 log 17276 3024 Not Found: /course/cate/
+WARNING 2026-04-22 16:55:36,895 log 17276 3024 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 16:55:36,958 log 17276 12868 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 16:55:36,962 log 17276 1564 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 16:55:36,983 log 17276 12868 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+ERROR 2026-04-22 16:55:36,995 log 17276 1564 "GET /tcourse/banner/ HTTP/1.1" 500 19832
+INFO 2026-04-22 16:55:45,567 log 17276 1564 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 16:55:45,593 log 17276 3024 Not Found: /course/cate/
+WARNING 2026-04-22 16:55:45,595 log 17276 3024 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 16:55:45,617 log 17276 5440 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 16:55:45,639 log 17276 12868 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 16:55:45,641 log 17276 5440 "GET /tcourse/banner/ HTTP/1.1" 500 19832
+ERROR 2026-04-22 16:55:45,674 log 17276 12868 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+WARNING 2026-04-22 17:16:54,463 log 17276 1344 Not Found: /course/cate/
+WARNING 2026-04-22 17:16:54,475 log 17276 1344 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 17:16:54,494 log 17276 16832 "POST /login/ HTTP/1.1" 200 32
+ERROR 2026-04-22 17:16:54,499 log 17276 16188 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:16:54,519 log 17276 4224 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:16:54,521 log 17276 16188 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+ERROR 2026-04-22 17:16:54,538 log 17276 4224 "GET /tcourse/banner/ HTTP/1.1" 500 19832
+ERROR 2026-04-22 17:16:57,711 log 17276 4224 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:16:57,729 log 17276 4224 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+ERROR 2026-04-22 17:17:00,164 log 17276 4224 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:17:00,170 log 17276 4224 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+INFO 2026-04-22 17:17:01,754 log 17276 4224 "POST /login/ HTTP/1.1" 200 32
+ERROR 2026-04-22 17:19:33,546 log 17276 4224 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:19:33,553 log 17276 4224 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+WARNING 2026-04-22 17:19:34,801 log 17276 16188 Not Found: /course/cate/
+WARNING 2026-04-22 17:19:34,807 log 17276 16188 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:19:34,824 log 17276 16832 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:19:34,839 log 17276 4224 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:19:34,845 log 17276 16832 "GET /tcourse/banner/ HTTP/1.1" 500 19832
+ERROR 2026-04-22 17:19:34,849 log 17276 4224 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+ERROR 2026-04-22 17:19:35,806 log 17276 4224 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:19:35,809 log 17276 4224 "GET /tcourse/nav/ HTTP/1.1" 500 19818
+INFO 2026-04-22 17:26:31,705 autoreload 17276 12696 E:\AICM\demo\p3\myproject\myproject\settings\dev.py changed, reloading.
+INFO 2026-04-22 17:26:32,502 autoreload 13268 11844 Watching for file changes with StatReloader
+ERROR 2026-04-22 17:26:39,764 log 13268 7008 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:39,770 log 13268 7008 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+ERROR 2026-04-22 17:26:41,520 log 13268 7008 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:41,524 log 13268 7008 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+INFO 2026-04-22 17:26:45,955 log 13268 7008 "POST /login/ HTTP/1.1" 200 32
+ERROR 2026-04-22 17:26:45,972 log 13268 7028 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+WARNING 2026-04-22 17:26:45,986 log 13268 7008 Not Found: /course/cate/
+WARNING 2026-04-22 17:26:45,992 log 13268 7008 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:26:45,992 log 13268 7028 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+ERROR 2026-04-22 17:26:46,037 log 13268 7008 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:46,052 log 13268 7008 "GET /tcourse/banner/ HTTP/1.1" 500 19862
+INFO 2026-04-22 17:26:48,464 log 13268 7008 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:26:48,488 log 13268 4192 Not Found: /course/cate/
+ERROR 2026-04-22 17:26:48,536 log 13268 7028 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:48,553 log 13268 7008 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+WARNING 2026-04-22 17:26:48,556 log 13268 4192 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:26:48,564 log 13268 7028 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+ERROR 2026-04-22 17:26:48,584 log 13268 7008 "GET /tcourse/banner/ HTTP/1.1" 500 19862
+ERROR 2026-04-22 17:26:51,534 log 13268 7008 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:51,547 log 13268 7008 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+ERROR 2026-04-22 17:26:57,055 log 13268 7008 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:26:57,061 log 13268 7008 "GET /tcourse/nav/ HTTP/1.1" 500 19848
+WARNING 2026-04-22 17:27:00,830 log 13268 7028 Not Found: /course/cate/
+INFO 2026-04-22 17:27:00,831 log 13268 4192 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:27:00,834 log 13268 7028 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:27:00,861 log 13268 15940 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:27:00,869 log 13268 7008 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^
+AttributeError: 'MyRedis' object has no attribute 'get'
+ERROR 2026-04-22 17:27:00,876 log 13268 15940 "GET /tcourse/banner/ HTTP/1.1" 500 19902
+ERROR 2026-04-22 17:27:00,882 log 13268 7008 "GET /tcourse/nav/ HTTP/1.1" 500 19888
+INFO 2026-04-22 17:32:07,032 autoreload 13268 11844 E:\AICM\demo\p3\myproject\tools\myredis.py changed, reloading.
+INFO 2026-04-22 17:32:07,946 autoreload 16284 7404 Watching for file changes with StatReloader
+INFO 2026-04-22 17:32:31,899 log 16284 7912 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:32:31,930 log 16284 16140 Not Found: /course/cate/
+WARNING 2026-04-22 17:32:31,932 log 16284 16140 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:32:51,479 log 16284 6580 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:32:51,490 basehttp 16284 6580 - Broken pipe from ('127.0.0.1', 56269)
+ERROR 2026-04-22 17:32:52,529 log 16284 13888 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:32:52,533 basehttp 16284 13888 - Broken pipe from ('127.0.0.1', 56267)
+WARNING 2026-04-22 17:32:56,740 log 16284 10288 Not Found: /course/cate/
+WARNING 2026-04-22 17:32:56,742 log 16284 10288 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 17:32:57,061 log 16284 1564 "POST /login/ HTTP/1.1" 200 32
+ERROR 2026-04-22 17:32:59,914 log 16284 16140 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:32:59,919 basehttp 16284 16140 - Broken pipe from ('127.0.0.1', 56268)
+ERROR 2026-04-22 17:33:17,159 log 16284 7912 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:33:17,167 basehttp 16284 7912 - Broken pipe from ('127.0.0.1', 56266)
+ERROR 2026-04-22 17:33:19,275 log 16284 1564 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:33:19,285 basehttp 16284 1564 - Broken pipe from ('127.0.0.1', 56314)
+ERROR 2026-04-22 17:33:23,513 log 16284 16320 Internal Server Error: /tcourse/nav/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 26, in get
+    nlist = r.get("navlist")
+            ^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:33:23,527 basehttp 16284 16320 - Broken pipe from ('127.0.0.1', 56315)
+ERROR 2026-04-22 17:33:24,661 log 16284 10288 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1003, in connect_check_health
+    sock = self._connect()
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1515, in _connect
+    raise err
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1499, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 38, in get
+    blist = r.get("bannerlist")
+            ^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tools\myredis.py", line 15, in get
+    return self.r.get(key)
+           ^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\commands\core.py", line 2073, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\client.py", line 722, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\utils.py", line 236, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 3041, in get_connection
+    connection.connect()
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 976, in connect
+    self.retry.call_with_retry(
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 132, in call_with_retry
+    raise error
+  File "D:\software\pythono312\Lib\site-packages\redis\retry.py", line 120, in call_with_retry
+    return do()
+           ^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 977, in <lambda>
+    lambda: self.connect_check_health(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\redis\connection.py", line 1025, in connect_check_health
+    raise e
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. 由于目标计算机积极拒绝，无法连接。.
+INFO 2026-04-22 17:33:24,676 basehttp 16284 10288 - Broken pipe from ('127.0.0.1', 56273)
+INFO 2026-04-22 17:34:46,757 log 16284 16712 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 17:34:55,007 log 16284 16712 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 17:34:55,031 log 16284 16712 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 17:34:55,047 log 16284 16712 Not Found: /course/cate/
+WARNING 2026-04-22 17:34:55,048 log 16284 16712 "GET /course/cate/ HTTP/1.1" 404 2618
+ERROR 2026-04-22 17:34:55,078 log 16284 16760 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 43, in get
+    ser = BannerSerializer(banner, many=True)
+          ^^^^^^^^^^^^^^^^
+NameError: name 'BannerSerializer' is not defined. Did you mean: 'CategorySerializer'?
+ERROR 2026-04-22 17:34:55,110 log 16284 16760 "GET /tcourse/banner/ HTTP/1.1" 500 19913
+INFO 2026-04-22 17:35:33,373 autoreload 16284 7404 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 17:35:34,154 autoreload 808 16704 Watching for file changes with StatReloader
+INFO 2026-04-22 17:35:35,507 autoreload 808 16704 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 17:35:36,136 autoreload 7992 3508 Watching for file changes with StatReloader
+INFO 2026-04-22 17:35:37,553 autoreload 7992 3508 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 17:35:38,423 autoreload 12536 6604 Watching for file changes with StatReloader
+INFO 2026-04-22 17:35:55,782 log 12536 13652 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:35:55,786 log 12536 14644 Not Found: /course/cate/
+WARNING 2026-04-22 17:35:55,794 log 12536 14644 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 17:35:55,799 log 12536 14584 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 17:35:55,811 log 12536 16744 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 17:36:07,332 log 12536 16744 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 17:36:30,262 log 12536 14644 Not Found: /course/cate/
+INFO 2026-04-22 17:36:30,262 log 12536 16744 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:36:30,264 log 12536 14644 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 17:36:30,339 log 12536 14584 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 17:36:30,340 log 12536 13652 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 17:39:12,114 autoreload 12536 6604 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 17:39:13,076 autoreload 6560 5284 Watching for file changes with StatReloader
+INFO 2026-04-22 17:44:03,233 autoreload 6560 5284 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:44:04,110 autoreload 13100 16620 Watching for file changes with StatReloader
+INFO 2026-04-22 17:44:07,977 autoreload 13100 16620 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:44:08,875 autoreload 9576 6404 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:44:10,620 log 9576 17176 Not Found: /
+WARNING 2026-04-22 17:44:10,622 log 9576 17176 "GET / HTTP/1.1" 404 2564
+WARNING 2026-04-22 17:44:10,849 log 9576 17176 Not Found: /@vite/client
+WARNING 2026-04-22 17:44:10,851 log 9576 17176 "GET /@vite/client HTTP/1.1" 404 2618
+INFO 2026-04-22 17:44:51,125 autoreload 9576 6404 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:44:51,929 autoreload 16232 16608 Watching for file changes with StatReloader
+INFO 2026-04-22 17:44:53,313 autoreload 16232 16608 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:44:54,161 autoreload 17188 8216 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:44:55,480 log 17188 16988 Not Found: /
+WARNING 2026-04-22 17:44:55,481 log 17188 16988 "GET / HTTP/1.1" 404 2564
+INFO 2026-04-22 17:45:20,646 autoreload 17188 8216 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 17:45:21,422 autoreload 6376 5208 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:45:24,646 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:24,655 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:49,597 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:49,599 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:50,975 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:50,977 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:51,485 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:51,486 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:51,729 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:51,731 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:51,985 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:51,986 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+WARNING 2026-04-22 17:45:52,176 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:45:52,178 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+INFO 2026-04-22 17:46:04,323 log 6376 15944 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 17:46:27,293 log 6376 15944 "GET /tcourse/nav/ HTTP/1.1" 200 5871
+WARNING 2026-04-22 17:46:39,260 log 6376 15944 Not Found: /tcourse/category/
+WARNING 2026-04-22 17:46:39,271 log 6376 15944 "GET /tcourse/category/ HTTP/1.1" 404 3490
+INFO 2026-04-22 17:46:55,416 autoreload 6376 5208 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 17:46:56,207 autoreload 3756 9576 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:47:05,011 log 3756 4256 Not Found: /
+WARNING 2026-04-22 17:47:05,052 log 3756 4256 "GET / HTTP/1.1" 404 2564
+WARNING 2026-04-22 17:47:05,812 log 3756 4256 Not Found: /favicon.ico
+WARNING 2026-04-22 17:47:05,815 log 3756 4256 "GET /favicon.ico HTTP/1.1" 404 2615
+INFO 2026-04-22 17:47:07,452 log 3756 15792 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2026-04-22 17:47:07,463 log 3756 15792 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 17:47:19,643 log 3756 16064 "GET /tcourse/category/ HTTP/1.1" 200 6204
+INFO 2026-04-22 17:59:03,902 autoreload 3756 9576 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:04,646 autoreload 12100 4560 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:30,657 autoreload 12100 4560 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:31,283 autoreload 7220 4192 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:42,453 autoreload 7220 4192 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:43,366 autoreload 7008 7912 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:45,022 autoreload 7008 7912 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:45,675 autoreload 13056 15504 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:47,321 autoreload 13056 15504 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:48,167 autoreload 17304 13036 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:49,870 autoreload 17304 13036 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 17:59:50,473 autoreload 8280 6100 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:59:57,052 log 8280 16636 Not Found: /course/cate/
+INFO 2026-04-22 17:59:57,054 log 8280 7312 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 17:59:57,057 log 8280 16636 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 17:59:57,066 log 8280 15908 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 17:59:57,068 log 8280 760 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:00:08,634 log 8280 15908 Not Found: /course/cate/
+INFO 2026-04-22 18:00:08,634 log 8280 7312 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:00:08,639 log 8280 15908 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 18:00:08,655 log 8280 760 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:00:08,667 log 8280 16636 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:00:55,168 autoreload 8280 6100 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:00:56,169 autoreload 2536 3300 Watching for file changes with StatReloader
+INFO 2026-04-22 18:00:58,789 autoreload 2536 3300 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:00:59,495 autoreload 11036 10636 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:01,430 autoreload 11036 10636 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:02,208 autoreload 17328 11040 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:05,832 autoreload 17328 11040 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:06,454 autoreload 15692 3228 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:12,597 autoreload 15692 3228 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:13,273 autoreload 7220 13532 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:17,083 autoreload 7220 13532 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:17,893 autoreload 15880 3936 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:23,437 autoreload 15880 3936 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:24,146 autoreload 16144 3020 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:28,123 autoreload 16144 3020 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:28,903 autoreload 16340 13424 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:30,310 autoreload 16340 13424 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:01:30,936 autoreload 8948 8532 Watching for file changes with StatReloader
+INFO 2026-04-22 18:01:36,999 log 8948 6316 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:01:37,000 log 8948 15564 Not Found: /course/cate/
+WARNING 2026-04-22 18:01:37,003 log 8948 15564 "GET /course/cate/ HTTP/1.1" 404 2618
+INFO 2026-04-22 18:01:37,021 log 8948 7312 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:01:37,048 log 8948 3296 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:07:37,743 autoreload 8948 8532 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:07:38,551 autoreload 17184 12756 Watching for file changes with StatReloader
+INFO 2026-04-22 18:07:42,358 autoreload 17184 12756 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:07:42,982 autoreload 16248 5040 Watching for file changes with StatReloader
+INFO 2026-04-22 18:07:47,918 autoreload 16248 5040 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:07:48,605 autoreload 480 6712 Watching for file changes with StatReloader
+INFO 2026-04-22 18:07:51,346 autoreload 480 6712 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:07:51,998 autoreload 13996 16508 Watching for file changes with StatReloader
+INFO 2026-04-22 18:07:55,974 autoreload 13996 16508 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:07:56,629 autoreload 6440 15976 Watching for file changes with StatReloader
+INFO 2026-04-22 18:08:00,374 autoreload 6440 15976 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:08:01,098 autoreload 6200 3316 Watching for file changes with StatReloader
+INFO 2026-04-22 18:08:04,003 autoreload 6200 3316 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:08:04,617 autoreload 3300 15156 Watching for file changes with StatReloader
+INFO 2026-04-22 18:17:50,458 autoreload 3300 15156 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 18:17:51,120 autoreload 4088 5272 Watching for file changes with StatReloader
+INFO 2026-04-22 18:17:56,093 autoreload 4088 5272 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 18:17:56,788 autoreload 16848 14584 Watching for file changes with StatReloader
+WARNING 2026-04-22 18:20:58,474 log 16848 15404 Not Found: /tcourse/cate/
+INFO 2026-04-22 18:20:58,474 log 16848 14876 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:20:58,477 log 16848 15404 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:20:58,491 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:20:58,491 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+WARNING 2026-04-22 18:21:04,794 log 16848 1136 Not Found: /tcourse/cate/
+INFO 2026-04-22 18:21:04,795 log 16848 15404 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:21:04,830 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:21:04,832 log 16848 14876 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:21:04,833 log 16848 1136 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+WARNING 2026-04-22 18:21:16,041 log 16848 14876 Not Found: /tcourse/cate/
+INFO 2026-04-22 18:21:16,041 log 16848 16296 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:21:16,044 log 16848 14876 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:21:16,091 log 16848 1136 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:21:16,094 log 16848 15404 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:21:25,615 log 16848 15404 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:21:25,627 log 16848 14876 Not Found: /tcourse/cate/
+WARNING 2026-04-22 18:21:25,633 log 16848 14876 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:21:25,638 log 16848 16296 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:21:25,653 log 16848 1136 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:21:36,691 log 16848 1136 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:21:41,686 log 16848 1136 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:21:50,290 log 16848 1136 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:22:50,975 log 16848 1136 Not Found: /tcourse//
+INFO 2026-04-22 18:22:50,981 log 16848 16296 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:22:50,981 log 16848 1136 "GET /tcourse// HTTP/1.1" 404 3466
+INFO 2026-04-22 18:22:52,605 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:22:52,606 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:22:52,630 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:22:59,292 log 16848 14876 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:22:59,310 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:22:59,326 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:22:59,341 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:23:00,901 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:25:22,474 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:25:22,493 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:25:22,514 log 16848 16296 "GET /tcourse/nav/ HTTP/1.1" 200 275
+WARNING 2026-04-22 18:25:24,724 log 16848 16296 Not Found: /tcourse//
+WARNING 2026-04-22 18:25:24,726 log 16848 16296 "GET /tcourse// HTTP/1.1" 404 3466
+INFO 2026-04-22 18:25:24,729 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:25:26,731 log 16848 1136 Not Found: /tcourse/cate/
+WARNING 2026-04-22 18:25:26,732 log 16848 1136 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:25:26,735 log 16848 16296 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:25:34,718 log 16848 16296 Not Found: /tcourse/cate/
+WARNING 2026-04-22 18:25:34,719 log 16848 16296 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:25:34,727 log 16848 1136 "GET /tcourse/banner/ HTTP/1.1" 200 40
+WARNING 2026-04-22 18:25:36,930 log 16848 1136 Not Found: /tcourse/cate/
+WARNING 2026-04-22 18:25:36,931 log 16848 1136 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:25:36,934 log 16848 16296 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:25:49,454 log 16848 16296 "POST /login/ HTTP/1.1" 200 32
+WARNING 2026-04-22 18:25:49,471 log 16848 14876 Not Found: /tcourse/cate/
+WARNING 2026-04-22 18:25:49,501 log 16848 14876 "GET /tcourse/cate/ HTTP/1.1" 404 3478
+INFO 2026-04-22 18:25:49,512 log 16848 15404 "GET /tcourse/banner/ HTTP/1.1" 200 40
+INFO 2026-04-22 18:25:49,512 log 16848 1136 "GET /tcourse/nav/ HTTP/1.1" 200 275
+INFO 2026-04-22 18:30:13,058 autoreload 16848 14584 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:30:13,776 autoreload 12316 10672 Watching for file changes with StatReloader
+INFO 2026-04-22 18:30:26,012 autoreload 12316 10672 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:30:26,743 autoreload 13388 8836 Watching for file changes with StatReloader
+INFO 2026-04-22 18:30:41,265 autoreload 13388 8836 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 18:30:41,932 autoreload 144 14696 Watching for file changes with StatReloader
+INFO 2026-04-22 18:35:51,485 log 144 8580 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:35:51,565 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:35:51,565 log 144 16308 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:35:51,565 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:35:52,818 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:35:54,749 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:35:56,895 log 144 15988 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:36:15,518 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:36:29,314 log 144 15988 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:36:59,799 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:17,809 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:25,511 log 144 15988 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:38:25,519 log 144 7088 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:38:25,520 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:25,533 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:27,220 log 144 16308 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:38:30,778 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:43,373 log 144 16308 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:38:43,376 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:38:43,376 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:43,388 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:38:44,751 log 144 7088 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:39:10,385 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:40:38,394 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:40:42,597 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:40:55,314 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:40:55,323 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:40:55,324 log 144 16308 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:40:55,328 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:40:56,863 log 144 7088 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:41:13,923 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:41:47,237 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:41:51,674 log 144 7088 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:41:54,579 log 144 7088 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:41:54,588 log 144 7888 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:41:54,589 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:41:54,589 log 144 16308 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:41:56,100 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:45:42,190 log 144 15988 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:45:42,194 log 144 16308 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:45:42,203 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:45:52,171 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:45:52,171 log 144 16308 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:45:52,186 log 144 15988 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:45:59,505 log 144 15988 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:45:59,526 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:45:59,528 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:46:26,717 log 144 16308 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:46:26,724 log 144 15988 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:46:26,725 log 144 7888 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:46:26,725 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:46:28,451 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 18:47:21,744 log 144 9544 Not Found: /
+WARNING 2026-04-22 18:47:21,756 log 144 9544 "GET / HTTP/1.1" 404 2564
+INFO 2026-04-22 18:47:36,957 log 144 9544 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:47:50,231 log 144 9544 "GET /admin/ HTTP/1.1" 200 11249
+INFO 2026-04-22 18:47:53,119 log 144 9544 "GET /admin/tcourse/banner/ HTTP/1.1" 200 9351
+INFO 2026-04-22 18:47:53,170 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:47:54,863 log 144 9544 "GET /admin/tcourse/banner/add/ HTTP/1.1" 200 12353
+INFO 2026-04-22 18:47:54,904 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:11,007 log 144 9544 "POST /admin/tcourse/banner/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 18:48:11,051 log 144 9544 "GET /admin/tcourse/banner/ HTTP/1.1" 200 10860
+INFO 2026-04-22 18:48:11,099 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:13,207 log 144 9544 "GET /admin/tcourse/banner/add/ HTTP/1.1" 200 12353
+INFO 2026-04-22 18:48:13,249 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:26,140 log 144 9544 "POST /admin/tcourse/banner/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 18:48:26,181 log 144 9544 "GET /admin/tcourse/banner/ HTTP/1.1" 200 11144
+INFO 2026-04-22 18:48:26,237 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:28,097 log 144 9544 "GET /admin/tcourse/banner/add/ HTTP/1.1" 200 12353
+INFO 2026-04-22 18:48:28,166 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:37,765 log 144 9544 "POST /admin/tcourse/banner/add/ HTTP/1.1" 302 0
+INFO 2026-04-22 18:48:37,794 log 144 9544 "GET /admin/tcourse/banner/ HTTP/1.1" 200 11428
+INFO 2026-04-22 18:48:37,842 log 144 9544 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 18:48:42,947 log 144 16308 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:48:42,974 log 144 16308 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:48:42,979 log 144 15988 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:48:42,995 log 144 7888 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:48:44,680 log 144 7888 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:49:04,142 log 144 9544 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:49:06,709 log 144 9544 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:49:08,803 log 144 9544 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:49:09,631 log 144 9544 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:55:11,874 log 144 12588 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:55:11,876 log 144 1948 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:55:11,881 log 144 1948 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:55:27,947 log 144 1948 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:55:27,947 log 144 12588 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:55:27,983 log 144 1948 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:56:52,149 log 144 12588 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 18:56:52,149 log 144 1948 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:56:52,169 log 144 12588 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 18:56:52,171 log 144 1948 "GET /tcourse/banner/ HTTP/1.1" 200 38
+INFO 2026-04-22 18:56:52,271 log 144 1948 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 18:57:19,316 log 144 15972 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:57:22,788 log 144 15972 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 18:57:23,810 log 144 15972 "GET /tcourse/banner/ HTTP/1.1" 200 5263
+INFO 2026-04-22 19:01:35,634 autoreload 7000 7324 Watching for file changes with StatReloader
+INFO 2026-04-22 19:01:41,509 log 7000 2536 "GET /admin/ HTTP/1.1" 200 11974
+INFO 2026-04-22 19:01:43,622 log 7000 2536 "GET /admin/tcourse/banner/ HTTP/1.1" 200 11212
+INFO 2026-04-22 19:01:43,680 log 7000 2536 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 19:01:46,376 log 7000 2536 "GET /admin/tcourse/banner/3/change/ HTTP/1.1" 200 12777
+INFO 2026-04-22 19:01:46,438 log 7000 2536 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2026-04-22 19:01:51,919 log 7000 2536 "GET /admin/tcourse/ HTTP/1.1" 200 6613
+INFO 2026-04-22 19:02:53,439 autoreload 7000 7324 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:02:54,145 autoreload 3172 4396 Watching for file changes with StatReloader
+INFO 2026-04-22 19:03:09,787 autoreload 3172 4396 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:03:10,558 autoreload 15868 2056 Watching for file changes with StatReloader
+INFO 2026-04-22 19:04:34,832 log 15868 12696 "GET /tcourse/banner/ HTTP/1.1" 200 6096
+INFO 2026-04-22 19:04:45,725 log 15868 3048 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:04:45,752 log 15868 16744 "GET /tcourse/banner/ HTTP/1.1" 200 404
+INFO 2026-04-22 19:04:45,753 log 15868 13880 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:04:45,774 log 15868 2092 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:04:47,370 log 15868 12868 Not Found: /upload/upload/banner/43\u5c01\u9762\u56fe.jpg
+INFO 2026-04-22 19:04:47,370 log 15868 2092 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:04:47,373 log 15868 8412 Not Found: /upload/upload/banner/\u6559\u80b2\u5b66\u539f\u7406-AI\u6559\u80b2\u62c6\u4e66\u7a3f.jpg
+WARNING 2026-04-22 19:04:47,384 log 15868 15060 Not Found: /upload/upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:04:47,384 log 15868 12868 "GET /upload/upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2708
+WARNING 2026-04-22 19:04:47,386 log 15868 15060 "GET /upload/upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 2723
+WARNING 2026-04-22 19:04:47,387 log 15868 8412 "GET /upload/upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 404 2816
+INFO 2026-04-22 19:04:47,400 basehttp 15868 12868 - Broken pipe from ('127.0.0.1', 60412)
+INFO 2026-04-22 19:05:11,850 log 15868 2092 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:07:50,231 autoreload 15868 2056 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:07:51,002 autoreload 7468 3296 Watching for file changes with StatReloader
+INFO 2026-04-22 19:08:03,470 autoreload 7468 3296 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:08:04,152 autoreload 5292 5096 Watching for file changes with StatReloader
+INFO 2026-04-22 19:08:05,524 autoreload 5292 5096 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:08:06,409 autoreload 9688 8900 Watching for file changes with StatReloader
+INFO 2026-04-22 19:08:08,938 autoreload 9688 8900 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:08:09,685 autoreload 2056 12588 Watching for file changes with StatReloader
+INFO 2026-04-22 19:08:14,848 autoreload 2056 12588 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-04-22 19:08:15,826 autoreload 7516 16152 Watching for file changes with StatReloader
+INFO 2026-04-22 19:08:27,349 log 7516 17128 "GET /tcourse/banner/ HTTP/1.1" 200 6096
+INFO 2026-04-22 19:09:27,399 autoreload 7516 16152 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:28,117 autoreload 8900 12756 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:30,873 autoreload 8900 12756 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:31,643 autoreload 8552 12896 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:34,071 autoreload 8552 12896 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:34,740 autoreload 4088 15776 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:37,177 autoreload 4088 15776 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:37,924 autoreload 8548 1160 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:40,416 autoreload 8548 1160 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:41,076 autoreload 8116 6820 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:44,503 autoreload 8116 6820 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:45,187 autoreload 1432 4392 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:48,698 autoreload 1432 4392 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:49,338 autoreload 8684 16888 Watching for file changes with StatReloader
+INFO 2026-04-22 19:09:51,714 autoreload 8684 16888 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:09:52,602 autoreload 17000 1436 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:00,415 autoreload 17000 1436 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:01,083 autoreload 1432 4396 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:12,540 autoreload 1432 4396 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:13,254 autoreload 17000 15792 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:15,712 autoreload 17000 15792 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:16,512 autoreload 252 7312 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:17,995 autoreload 252 7312 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:18,997 autoreload 3984 6516 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:22,991 autoreload 3984 6516 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:23,767 autoreload 1136 2508 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:25,224 autoreload 1136 2508 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:26,128 autoreload 7608 8580 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:28,656 autoreload 7608 8580 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:29,528 autoreload 10288 10608 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:31,484 autoreload 10288 10608 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:32,349 autoreload 16964 1708 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:34,990 autoreload 16964 1708 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:35,660 autoreload 16940 16888 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:39,240 autoreload 16940 16888 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:39,957 autoreload 15180 3716 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:42,053 autoreload 15180 3716 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:42,984 autoreload 6684 15552 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:52,376 autoreload 6684 15552 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:53,169 autoreload 472 8764 Watching for file changes with StatReloader
+INFO 2026-04-22 19:10:54,932 autoreload 472 8764 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:10:55,715 autoreload 15988 15560 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:05,575 autoreload 15988 15560 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:06,240 autoreload 6340 8664 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:08,594 autoreload 6340 8664 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:09,262 autoreload 13636 14856 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:12,736 autoreload 13636 14856 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:13,458 autoreload 4064 5456 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:15,912 autoreload 4064 5456 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:16,550 autoreload 17364 15180 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:22,217 autoreload 17364 15180 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:22,970 autoreload 5172 4088 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:24,438 autoreload 5172 4088 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:25,098 autoreload 15012 15676 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:27,600 autoreload 15012 15676 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:28,353 autoreload 5456 4064 Watching for file changes with StatReloader
+INFO 2026-04-22 19:11:30,920 autoreload 5456 4064 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:11:31,690 autoreload 14144 7344 Watching for file changes with StatReloader
+INFO 2026-04-22 19:14:04,398 autoreload 14144 7344 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:14:05,362 autoreload 17364 15180 Watching for file changes with StatReloader
+INFO 2026-04-22 19:14:12,255 log 17364 9688 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:14:12,273 log 17364 5412 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:14:12,278 log 17364 2248 "GET /tcourse/cate/ HTTP/1.1" 200 241
+ERROR 2026-04-22 19:14:12,377 log 17364 16656 Internal Server Error: /tcourse/banner/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 46, in get
+    data = ser.data
+           ^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\serializers.py", line 809, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\fields.py", line 1929, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\ser.py", line 26, in get_image
+    return f"{settings.BASE_URL}{obj.image.url}"
+              ^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\conf\__init__.py", line 77, in __getattr__
+    val = getattr(_wrapped, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Settings' object has no attribute 'BASE_URL'. Did you mean: 'BASE_DIR'?
+ERROR 2026-04-22 19:14:12,403 log 17364 16656 "GET /tcourse/banner/ HTTP/1.1" 500 21146
+INFO 2026-04-22 19:14:13,706 log 17364 16656 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:23:59,512 autoreload 17364 15180 E:\AICM\demo\p3\myproject\tcourse\ser.py changed, reloading.
+INFO 2026-04-22 19:24:00,167 autoreload 17772 17488 Watching for file changes with StatReloader
+INFO 2026-04-22 19:24:10,321 log 17772 17532 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:24:10,329 log 17772 17532 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:24:10,338 log 17772 12736 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:26:33,885 log 17772 15648 "GET /tcourse/banner/ HTTP/1.1" 200 6075
+INFO 2026-04-22 19:26:35,246 log 17772 15648 "GET /tcourse/banner/ HTTP/1.1" 200 6075
+INFO 2026-04-22 19:26:50,633 log 17772 12736 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:26:50,637 log 17772 17532 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:26:50,656 log 17772 12736 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:26:50,665 log 17772 17532 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:26:50,767 log 17772 17532 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:29:10,135 autoreload 5440 17680 Watching for file changes with StatReloader
+WARNING 2026-04-22 19:29:15,977 log 5440 348 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:29:15,978 log 5440 348 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:29:53,760 log 5440 348 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:29:53,765 log 5440 348 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:29:55,957 log 5440 348 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:29:55,957 log 5440 348 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:29:57,080 log 5440 348 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:29:57,081 log 5440 348 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:29:57,936 log 5440 348 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:29:57,937 log 5440 348 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+INFO 2026-04-22 19:31:41,846 log 5440 17480 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:31:41,872 log 5440 7988 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:31:41,877 log 5440 17480 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:31:41,928 log 5440 5168 Not Found: /upload/banner/\u6559\u80b2\u5b66\u539f\u7406-AI\u6559\u80b2\u62c6\u4e66\u7a3f.jpg
+WARNING 2026-04-22 19:31:41,934 log 5440 16172 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:31:41,940 log 5440 8940 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:31:41,940 log 5440 16172 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:31:41,940 log 5440 5168 "GET /upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 404 2795
+INFO 2026-04-22 19:31:41,940 basehttp 5440 16172 - Broken pipe from ('127.0.0.1', 62361)
+WARNING 2026-04-22 19:31:41,941 log 5440 8940 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 2702
+INFO 2026-04-22 19:31:41,941 basehttp 5440 5168 - Broken pipe from ('127.0.0.1', 62362)
+INFO 2026-04-22 19:32:17,427 log 5440 17480 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:32:17,443 log 5440 7988 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:32:17,446 log 5440 17480 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:32:17,475 log 5440 17208 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:32:18,815 log 5440 17208 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:32:18,888 log 5440 15892 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:32:18,906 log 5440 6056 Not Found: /upload/banner/\u6559\u80b2\u5b66\u539f\u7406-AI\u6559\u80b2\u62c6\u4e66\u7a3f.jpg
+WARNING 2026-04-22 19:32:18,908 log 5440 15892 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 2687
+WARNING 2026-04-22 19:32:18,919 log 5440 2640 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:32:18,919 log 5440 6056 "GET /upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 404 2795
+INFO 2026-04-22 19:32:18,920 basehttp 5440 6056 - Broken pipe from ('127.0.0.1', 62414)
+WARNING 2026-04-22 19:32:18,921 log 5440 2640 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 2702
+INFO 2026-04-22 19:32:18,923 basehttp 5440 2640 - Broken pipe from ('127.0.0.1', 62415)
+INFO 2026-04-22 19:32:27,270 log 5440 348 "GET /tcourse/banner/ HTTP/1.1" 200 6075
+INFO 2026-04-22 19:32:28,490 log 5440 348 "GET /tcourse/banner/ HTTP/1.1" 200 6075
+WARNING 2026-04-22 19:33:05,710 log 5440 348 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:33:05,711 log 5440 348 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 2702
+INFO 2026-04-22 19:37:33,323 autoreload 5440 17680 E:\AICM\demo\p3\myproject\myproject\urls.py changed, reloading.
+INFO 2026-04-22 19:37:34,052 autoreload 17772 4600 Watching for file changes with StatReloader
+INFO 2026-04-22 19:37:42,893 autoreload 17772 4600 E:\AICM\demo\p3\myproject\myproject\urls.py changed, reloading.
+INFO 2026-04-22 19:37:43,469 autoreload 17508 16744 Watching for file changes with StatReloader
+INFO 2026-04-22 19:37:49,087 autoreload 17508 16744 E:\AICM\demo\p3\myproject\myproject\urls.py changed, reloading.
+INFO 2026-04-22 19:37:49,715 autoreload 17560 18000 Watching for file changes with StatReloader
+INFO 2026-04-22 19:38:03,880 log 17560 3480 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:38:03,881 log 17560 12736 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:38:03,881 log 17560 8516 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:38:03,887 log 17560 3464 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:38:05,249 log 17560 3464 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:38:05,292 log 17560 18184 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:38:05,301 log 17560 10852 Not Found: /upload/banner/\u6559\u80b2\u5b66\u539f\u7406-AI\u6559\u80b2\u62c6\u4e66\u7a3f.jpg
+WARNING 2026-04-22 19:38:05,306 log 17560 2056 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:38:05,307 log 17560 18184 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 3081
+WARNING 2026-04-22 19:38:05,308 log 17560 10852 "GET /upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 404 3211
+WARNING 2026-04-22 19:38:05,308 log 17560 2056 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 3099
+WARNING 2026-04-22 19:38:13,368 log 17560 12260 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:38:13,372 log 17560 12260 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 3099
+WARNING 2026-04-22 19:41:27,536 log 17560 12260 Not Found: /tcourse/upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:41:27,537 log 17560 12260 "GET /tcourse/upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 3809
+INFO 2026-04-22 19:43:01,214 autoreload 17560 18000 E:\AICM\demo\p3\myproject\tcourse\urls.py changed, reloading.
+INFO 2026-04-22 19:43:01,907 autoreload 17524 17652 Watching for file changes with StatReloader
+INFO 2026-04-22 19:45:28,039 autoreload 14148 17036 Watching for file changes with StatReloader
+INFO 2026-04-22 19:45:32,404 log 14148 7992 "POST /login/ HTTP/1.1" 200 32
+INFO 2026-04-22 19:45:32,404 log 14148 8188 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-04-22 19:45:32,404 log 14148 12472 "GET /tcourse/cate/ HTTP/1.1" 200 241
+INFO 2026-04-22 19:45:32,417 log 14148 6112 "GET /tcourse/banner/ HTTP/1.1" 200 383
+INFO 2026-04-22 19:45:34,074 log 14148 6112 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-04-22 19:45:34,101 log 14148 16364 Not Found: /upload/banner/\u6559\u80b2\u5b66\u539f\u7406-AI\u6559\u80b2\u62c6\u4e66\u7a3f.jpg
+WARNING 2026-04-22 19:45:34,109 log 14148 16676 Not Found: /upload/banner/43\u5c01\u9762\u56fe.jpg
+WARNING 2026-04-22 19:45:34,113 log 14148 16364 "GET /upload/banner/%E6%95%99%E8%82%B2%E5%AD%A6%E5%8E%9F%E7%90%86-AI%E6%95%99%E8%82%B2%E6%8B%86%E4%B9%A6%E7%A8%BF.jpg HTTP/1.1" 404 3211
+WARNING 2026-04-22 19:45:34,128 log 14148 5216 Not Found: /upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 19:45:34,129 log 14148 16676 "GET /upload/banner/43%E5%B0%81%E9%9D%A2%E5%9B%BE.jpg HTTP/1.1" 404 3081
+WARNING 2026-04-22 19:45:34,200 log 14148 5216 "GET /upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 3099
+WARNING 2026-04-22 20:20:17,030 log 14148 17792 Not Found: /tcourse/upload/banner/\u8fc8\u4e0aAI\u5927\u9053.jpg
+WARNING 2026-04-22 20:20:17,030 log 14148 17792 "GET /tcourse/upload/banner/%E8%BF%88%E4%B8%8AAI%E5%A4%A7%E9%81%93.jpg HTTP/1.1" 404 3809
+INFO 2026-04-22 20:20:32,519 log 14148 17792 "GET /tcourse/banner/ HTTP/1.1" 200 6075

@@ -1,0 +1,12 @@
+INFO 2026-03-31 11:11:55,479 autoreload 8884 14632 Watching for file changes with StatReloader
+INFO 2026-03-31 12:03:46,571 autoreload 16532 26868 Watching for file changes with StatReloader
+INFO 2026-03-31 12:04:43,699 basehttp 16532 14932 "POST /login/ HTTP/1.1" 200 12
+INFO 2026-03-31 12:05:16,673 autoreload 16532 26868 D:\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-03-31 12:05:17,204 autoreload 27708 23956 Watching for file changes with StatReloader
+INFO 2026-03-31 12:05:20,613 basehttp 27708 26600 "POST /login/ HTTP/1.1" 200 24
+INFO 2026-03-31 12:06:13,450 basehttp 27708 29416 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2026-03-31 12:06:13,455 basehttp 27708 29416 "POST /login/ HTTP/1.1" 200 24
+INFO 2026-03-31 12:07:09,286 basehttp 27708 29416 "POST /login/ HTTP/1.1" 200 24
+INFO 2026-03-31 12:07:22,925 basehttp 27708 15620 "POST /login/ HTTP/1.1" 200 28
+INFO 2026-03-31 13:51:46,034 basehttp 27708 32876 "POST /login/ HTTP/1.1" 200 28
+INFO 2026-03-31 13:51:50,206 basehttp 27708 32876 "POST /login/ HTTP/1.1" 200 28

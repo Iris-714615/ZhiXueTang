@@ -1,0 +1,1460 @@
+INFO 2026-05-13 09:22:39,073 autoreload 3864 16252 Watching for file changes with StatReloader
+INFO 2026-05-13 09:38:15,097 log 3864 9372 "OPTIONS /tcourse/nav/ HTTP/1.1" 200 0
+INFO 2026-05-13 09:38:15,097 log 3864 17060 "OPTIONS /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 09:38:15,115 log 3864 9372 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 09:38:15,181 log 3864 17060 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 727
+INFO 2026-05-13 09:38:17,616 log 3864 17060 "OPTIONS /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 09:38:17,707 log 3864 17060 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2566
+INFO 2026-05-13 09:38:18,032 log 3864 9160 "GET /upload/upload/course/33.png HTTP/1.1" 304 0
+INFO 2026-05-13 09:38:18,032 log 3864 17324 "GET /upload/upload/course/22_O58sZXm.png HTTP/1.1" 304 0
+INFO 2026-05-13 09:38:24,680 log 3864 17060 "OPTIONS /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 09:38:24,732 log 3864 17060 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2081
+INFO 2026-05-13 09:38:24,743 log 3864 17324 "GET /upload/upload/course/66.png HTTP/1.1" 304 0
+INFO 2026-05-13 09:38:26,329 log 3864 17060 "OPTIONS /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 09:38:26,426 log 3864 17060 "GET /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 2938
+INFO 2026-05-13 09:45:46,390 autoreload 3864 16252 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:45:47,819 autoreload 11632 2508 Watching for file changes with StatReloader
+INFO 2026-05-13 09:46:08,213 autoreload 11632 2508 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:46:09,574 autoreload 11728 15812 Watching for file changes with StatReloader
+INFO 2026-05-13 09:46:13,374 autoreload 11728 15812 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:46:14,428 autoreload 16612 14068 Watching for file changes with StatReloader
+INFO 2026-05-13 09:46:16,193 autoreload 16612 14068 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:46:17,284 autoreload 3380 14872 Watching for file changes with StatReloader
+INFO 2026-05-13 09:46:37,859 autoreload 3380 14872 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:46:38,598 autoreload 17108 16564 Watching for file changes with StatReloader
+INFO 2026-05-13 09:46:44,248 autoreload 17108 16564 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:46:45,273 autoreload 14264 2116 Watching for file changes with StatReloader
+INFO 2026-05-13 09:47:15,148 autoreload 14264 2116 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:47:16,086 autoreload 9288 6256 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:23,629 autoreload 9288 6256 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:24,417 autoreload 9504 10780 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:25,896 autoreload 9504 10780 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:26,767 autoreload 17204 400 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:28,237 autoreload 17204 400 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:29,224 autoreload 4736 12800 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:34,835 autoreload 4736 12800 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:35,747 autoreload 15824 12824 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:41,445 autoreload 15824 12824 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:42,505 autoreload 11324 7944 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:53,037 autoreload 11324 7944 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:54,460 autoreload 16412 7252 Watching for file changes with StatReloader
+INFO 2026-05-13 09:48:58,228 autoreload 16412 7252 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:48:59,284 autoreload 16252 14244 Watching for file changes with StatReloader
+INFO 2026-05-13 09:49:02,883 autoreload 16252 14244 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:49:03,912 autoreload 15824 16376 Watching for file changes with StatReloader
+INFO 2026-05-13 09:49:06,549 autoreload 15824 16376 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:49:07,781 autoreload 10580 17296 Watching for file changes with StatReloader
+INFO 2026-05-13 09:49:09,327 autoreload 10580 17296 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:49:10,381 autoreload 15192 13356 Watching for file changes with StatReloader
+INFO 2026-05-13 09:50:39,179 autoreload 15192 13356 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:50:40,009 autoreload 16280 7088 Watching for file changes with StatReloader
+INFO 2026-05-13 09:50:43,234 autoreload 16280 7088 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:50:44,559 autoreload 16292 11692 Watching for file changes with StatReloader
+INFO 2026-05-13 09:51:14,731 autoreload 16292 11692 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:51:15,972 autoreload 15536 9732 Watching for file changes with StatReloader
+INFO 2026-05-13 09:51:47,829 autoreload 15536 9732 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:51:48,813 autoreload 7524 11904 Watching for file changes with StatReloader
+INFO 2026-05-13 09:52:32,061 autoreload 7524 11904 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:52:32,975 autoreload 6984 6200 Watching for file changes with StatReloader
+INFO 2026-05-13 09:52:41,393 autoreload 6984 6200 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:52:42,267 autoreload 12008 14636 Watching for file changes with StatReloader
+INFO 2026-05-13 09:52:47,263 autoreload 12008 14636 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:52:48,197 autoreload 14344 412 Watching for file changes with StatReloader
+INFO 2026-05-13 09:53:19,751 autoreload 14344 412 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:53:20,739 autoreload 10040 11044 Watching for file changes with StatReloader
+INFO 2026-05-13 09:53:36,497 autoreload 10040 11044 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:53:37,733 autoreload 17172 13116 Watching for file changes with StatReloader
+INFO 2026-05-13 09:53:41,976 autoreload 17172 13116 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:53:43,055 autoreload 2292 10328 Watching for file changes with StatReloader
+INFO 2026-05-13 09:53:45,078 autoreload 2292 10328 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:53:45,983 autoreload 16616 17056 Watching for file changes with StatReloader
+INFO 2026-05-13 09:53:59,015 autoreload 16616 17056 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:54:00,611 autoreload 11644 16772 Watching for file changes with StatReloader
+INFO 2026-05-13 09:54:05,182 autoreload 11644 16772 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:54:06,295 autoreload 11300 7524 Watching for file changes with StatReloader
+INFO 2026-05-13 09:54:09,952 autoreload 11300 7524 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:54:11,082 autoreload 10784 12868 Watching for file changes with StatReloader
+INFO 2026-05-13 09:54:41,251 autoreload 10784 12868 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:54:42,179 autoreload 10120 9516 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:12,429 autoreload 10120 9516 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:13,526 autoreload 14396 16356 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:19,303 autoreload 14396 16356 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:20,587 autoreload 14092 9288 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:31,900 autoreload 14092 9288 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:32,966 autoreload 17376 2460 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:34,688 autoreload 17376 2460 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:35,784 autoreload 9808 7944 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:40,690 autoreload 9808 7944 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:41,737 autoreload 12556 12724 Watching for file changes with StatReloader
+INFO 2026-05-13 09:55:45,270 autoreload 12556 12724 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:55:46,456 autoreload 12560 17392 Watching for file changes with StatReloader
+INFO 2026-05-13 09:56:34,810 autoreload 12560 17392 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:56:35,788 autoreload 400 17280 Watching for file changes with StatReloader
+INFO 2026-05-13 09:56:39,155 autoreload 400 17280 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:56:40,434 autoreload 12668 11056 Watching for file changes with StatReloader
+INFO 2026-05-13 09:56:44,779 autoreload 12668 11056 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 09:56:45,906 autoreload 17392 15132 Watching for file changes with StatReloader
+INFO 2026-05-13 09:57:48,420 autoreload 17392 15132 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:57:49,481 autoreload 11048 17056 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:02,203 autoreload 11048 17056 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:03,532 autoreload 2580 16260 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:13,321 autoreload 2580 16260 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:14,377 autoreload 3612 16356 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:23,501 autoreload 3612 16356 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:24,672 autoreload 9524 6956 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:28,969 autoreload 9524 6956 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:30,010 autoreload 12932 14388 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:36,639 autoreload 12932 14388 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:38,136 autoreload 16180 7740 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:40,137 autoreload 16180 7740 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:41,299 autoreload 8360 12668 Watching for file changes with StatReloader
+INFO 2026-05-13 09:58:44,209 autoreload 8360 12668 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:58:45,461 autoreload 16992 17120 Watching for file changes with StatReloader
+INFO 2026-05-13 09:59:06,523 autoreload 16992 17120 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:59:07,570 autoreload 11916 12804 Watching for file changes with StatReloader
+INFO 2026-05-13 09:59:33,890 autoreload 11916 12804 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:59:34,783 autoreload 7368 10696 Watching for file changes with StatReloader
+INFO 2026-05-13 09:59:42,459 autoreload 7368 10696 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:59:43,837 autoreload 11916 10096 Watching for file changes with StatReloader
+INFO 2026-05-13 09:59:46,214 autoreload 11916 10096 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 09:59:48,018 autoreload 13088 16344 Watching for file changes with StatReloader
+INFO 2026-05-13 10:00:13,253 autoreload 13088 16344 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:00:14,911 autoreload 16320 16372 Watching for file changes with StatReloader
+INFO 2026-05-13 10:01:26,345 autoreload 16320 16372 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:01:27,423 autoreload 7240 13812 Watching for file changes with StatReloader
+INFO 2026-05-13 10:01:29,499 autoreload 7240 13812 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:01:30,625 autoreload 13804 7524 Watching for file changes with StatReloader
+INFO 2026-05-13 10:01:32,609 autoreload 13804 7524 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:01:34,010 autoreload 17256 17204 Watching for file changes with StatReloader
+INFO 2026-05-13 10:01:49,420 autoreload 17256 17204 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:01:50,452 autoreload 12840 17164 Watching for file changes with StatReloader
+INFO 2026-05-13 10:01:57,173 autoreload 12840 17164 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:01:58,223 autoreload 15476 14284 Watching for file changes with StatReloader
+INFO 2026-05-13 10:02:04,582 autoreload 15476 14284 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:02:05,493 autoreload 17052 14184 Watching for file changes with StatReloader
+INFO 2026-05-13 10:02:08,396 autoreload 17052 14184 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:02:09,300 autoreload 17388 16992 Watching for file changes with StatReloader
+INFO 2026-05-13 10:02:18,810 autoreload 17388 16992 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:02:19,792 autoreload 15392 16656 Watching for file changes with StatReloader
+INFO 2026-05-13 10:02:21,963 autoreload 15392 16656 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:02:23,285 autoreload 16932 2128 Watching for file changes with StatReloader
+INFO 2026-05-13 10:02:55,192 autoreload 16932 2128 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:02:56,274 autoreload 15476 5460 Watching for file changes with StatReloader
+INFO 2026-05-13 10:03:00,806 autoreload 15476 5460 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:03:02,233 autoreload 13988 7240 Watching for file changes with StatReloader
+INFO 2026-05-13 10:05:46,820 autoreload 13988 7240 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:05:48,576 autoreload 12528 15068 Watching for file changes with StatReloader
+INFO 2026-05-13 10:05:50,625 autoreload 12528 15068 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:05:51,957 autoreload 17120 17280 Watching for file changes with StatReloader
+INFO 2026-05-13 10:05:55,129 autoreload 17120 17280 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:05:56,357 autoreload 17292 10040 Watching for file changes with StatReloader
+INFO 2026-05-13 10:05:58,249 autoreload 17292 10040 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:05:59,373 autoreload 12696 1948 Watching for file changes with StatReloader
+INFO 2026-05-13 10:06:01,638 autoreload 12696 1948 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:06:02,748 autoreload 7420 1804 Watching for file changes with StatReloader
+INFO 2026-05-13 10:06:10,756 autoreload 7420 1804 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:06:11,850 autoreload 14104 6984 Watching for file changes with StatReloader
+INFO 2026-05-13 10:12:38,853 autoreload 14104 6984 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:12:39,993 autoreload 16260 7176 Watching for file changes with StatReloader
+INFO 2026-05-13 10:13:05,985 autoreload 16260 7176 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:13:07,046 autoreload 7284 1712 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:00,510 autoreload 7284 1712 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:03,020 autoreload 6160 11856 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:13,439 autoreload 6160 11856 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:15,381 autoreload 2884 2508 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:21,968 autoreload 2884 2508 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:23,821 autoreload 14128 16632 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:28,749 autoreload 14128 16632 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:30,945 autoreload 18048 1980 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:42,274 autoreload 18048 1980 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:44,547 autoreload 12944 7176 Watching for file changes with StatReloader
+INFO 2026-05-13 10:38:51,240 autoreload 12944 7176 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:38:53,012 autoreload 18244 16632 Watching for file changes with StatReloader
+INFO 2026-05-13 10:39:04,492 autoreload 18244 16632 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:39:06,303 autoreload 12536 15732 Watching for file changes with StatReloader
+INFO 2026-05-13 10:40:27,755 autoreload 12536 15732 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:40:29,525 autoreload 17164 16372 Watching for file changes with StatReloader
+INFO 2026-05-13 10:41:08,259 autoreload 17164 16372 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:41:10,125 autoreload 17812 17308 Watching for file changes with StatReloader
+INFO 2026-05-13 10:41:20,260 autoreload 17812 17308 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:41:22,584 autoreload 18080 16668 Watching for file changes with StatReloader
+INFO 2026-05-13 10:41:27,564 autoreload 18080 16668 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:41:29,607 autoreload 11708 7080 Watching for file changes with StatReloader
+INFO 2026-05-13 10:41:33,973 autoreload 11708 7080 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:41:35,733 autoreload 17140 7536 Watching for file changes with StatReloader
+INFO 2026-05-13 10:45:13,674 autoreload 17140 7536 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:45:15,453 autoreload 17804 5468 Watching for file changes with StatReloader
+INFO 2026-05-13 10:45:22,047 autoreload 17804 5468 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:45:23,858 autoreload 14012 10412 Watching for file changes with StatReloader
+INFO 2026-05-13 10:45:28,836 autoreload 14012 10412 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:45:30,676 autoreload 17308 17724 Watching for file changes with StatReloader
+INFO 2026-05-13 10:45:38,779 autoreload 17308 17724 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:45:40,422 autoreload 8712 18048 Watching for file changes with StatReloader
+INFO 2026-05-13 10:47:36,618 autoreload 8712 18048 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:47:38,577 autoreload 6256 14068 Watching for file changes with StatReloader
+INFO 2026-05-13 10:47:42,561 autoreload 6256 14068 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:47:44,386 autoreload 17800 14552 Watching for file changes with StatReloader
+INFO 2026-05-13 10:47:50,545 autoreload 17800 14552 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:47:52,624 autoreload 17452 17996 Watching for file changes with StatReloader
+INFO 2026-05-13 10:50:16,425 autoreload 17452 17996 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:50:18,219 autoreload 7984 18092 Watching for file changes with StatReloader
+INFO 2026-05-13 10:52:18,483 autoreload 7984 18092 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:52:20,655 autoreload 7484 10748 Watching for file changes with StatReloader
+INFO 2026-05-13 10:52:41,570 autoreload 7484 10748 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:52:43,668 autoreload 3276 14400 Watching for file changes with StatReloader
+INFO 2026-05-13 10:52:53,370 autoreload 3276 14400 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:52:55,222 autoreload 5392 17148 Watching for file changes with StatReloader
+INFO 2026-05-13 10:53:07,920 autoreload 5392 17148 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:53:09,782 autoreload 8356 10880 Watching for file changes with StatReloader
+INFO 2026-05-13 10:53:20,890 autoreload 8356 10880 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:53:22,973 autoreload 18280 17904 Watching for file changes with StatReloader
+INFO 2026-05-13 10:53:29,409 autoreload 18280 17904 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:53:31,090 autoreload 8208 17444 Watching for file changes with StatReloader
+INFO 2026-05-13 10:53:54,508 autoreload 8208 17444 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:53:56,443 autoreload 2452 17904 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:02,837 autoreload 2452 17904 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:04,635 autoreload 15224 17980 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:19,792 autoreload 15224 17980 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:21,595 autoreload 17904 2452 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:26,552 autoreload 17904 2452 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:28,448 autoreload 16412 12656 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:33,523 autoreload 16412 12656 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:35,259 autoreload 10720 16928 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:40,032 autoreload 10720 16928 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:41,563 autoreload 14400 14396 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:44,480 autoreload 14400 14396 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:46,076 autoreload 14188 9084 Watching for file changes with StatReloader
+INFO 2026-05-13 10:54:52,283 autoreload 14188 9084 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:54:54,406 autoreload 2700 10376 Watching for file changes with StatReloader
+INFO 2026-05-13 10:55:15,632 autoreload 2700 10376 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:55:17,604 autoreload 15132 16612 Watching for file changes with StatReloader
+INFO 2026-05-13 10:55:24,282 autoreload 15132 16612 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:55:26,082 autoreload 6656 13132 Watching for file changes with StatReloader
+INFO 2026-05-13 10:55:29,998 autoreload 6656 13132 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:55:31,744 autoreload 13096 10876 Watching for file changes with StatReloader
+INFO 2026-05-13 10:57:00,537 autoreload 13096 10876 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:57:02,180 autoreload 2508 13156 Watching for file changes with StatReloader
+INFO 2026-05-13 10:57:07,502 autoreload 2508 13156 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:57:09,357 autoreload 10372 18016 Watching for file changes with StatReloader
+INFO 2026-05-13 10:57:18,080 autoreload 10372 18016 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:57:19,677 autoreload 12844 1696 Watching for file changes with StatReloader
+INFO 2026-05-13 10:57:24,763 autoreload 12844 1696 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:57:26,541 autoreload 10720 17316 Watching for file changes with StatReloader
+INFO 2026-05-13 10:58:33,225 autoreload 10720 17316 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:58:34,931 autoreload 17928 17808 Watching for file changes with StatReloader
+INFO 2026-05-13 10:58:40,320 autoreload 17928 17808 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:58:42,683 autoreload 12836 16672 Watching for file changes with StatReloader
+INFO 2026-05-13 10:58:47,951 autoreload 12836 16672 E:\AICM\demo\p3\myproject\euser\models.py changed, reloading.
+INFO 2026-05-13 10:58:49,884 autoreload 17980 10876 Watching for file changes with StatReloader
+INFO 2026-05-13 10:58:54,447 autoreload 17980 10876 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:58:56,354 autoreload 14120 10340 Watching for file changes with StatReloader
+INFO 2026-05-13 10:59:09,782 autoreload 14120 10340 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:59:11,775 autoreload 3256 6600 Watching for file changes with StatReloader
+INFO 2026-05-13 10:59:31,500 autoreload 3256 6600 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:59:33,482 autoreload 11324 17860 Watching for file changes with StatReloader
+INFO 2026-05-13 10:59:38,482 autoreload 11324 17860 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 10:59:40,548 autoreload 18224 10800 Watching for file changes with StatReloader
+INFO 2026-05-13 11:00:03,712 autoreload 18224 10800 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:00:05,756 autoreload 14120 17324 Watching for file changes with StatReloader
+INFO 2026-05-13 11:00:23,473 autoreload 14120 17324 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:00:25,685 autoreload 228 18120 Watching for file changes with StatReloader
+INFO 2026-05-13 11:00:34,488 autoreload 228 18120 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:00:36,278 autoreload 2580 3832 Watching for file changes with StatReloader
+INFO 2026-05-13 11:00:41,672 autoreload 2580 3832 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:00:43,529 autoreload 17356 17204 Watching for file changes with StatReloader
+INFO 2026-05-13 11:01:42,287 autoreload 17356 17204 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:01:44,146 autoreload 10364 17776 Watching for file changes with StatReloader
+INFO 2026-05-13 11:02:17,869 autoreload 10364 17776 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:02:19,802 autoreload 12844 13316 Watching for file changes with StatReloader
+INFO 2026-05-13 11:02:28,718 autoreload 12844 13316 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:02:30,377 autoreload 13088 14284 Watching for file changes with StatReloader
+INFO 2026-05-13 11:02:35,891 autoreload 13088 14284 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:02:37,737 autoreload 15308 11956 Watching for file changes with StatReloader
+INFO 2026-05-13 11:03:30,910 autoreload 15308 11956 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:03:32,919 autoreload 15428 1464 Watching for file changes with StatReloader
+INFO 2026-05-13 11:03:47,235 autoreload 15428 1464 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:03:49,432 autoreload 17220 10088 Watching for file changes with StatReloader
+INFO 2026-05-13 11:04:24,139 autoreload 17220 10088 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:04:25,999 autoreload 18412 17940 Watching for file changes with StatReloader
+INFO 2026-05-13 11:04:41,167 autoreload 18412 17940 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:04:43,619 autoreload 15224 17764 Watching for file changes with StatReloader
+INFO 2026-05-13 11:16:01,136 autoreload 15224 17764 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:16:03,165 autoreload 16660 15084 Watching for file changes with StatReloader
+INFO 2026-05-13 11:16:54,461 autoreload 16660 15084 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:16:56,480 autoreload 7712 1872 Watching for file changes with StatReloader
+INFO 2026-05-13 11:17:05,555 autoreload 7712 1872 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:17:07,554 autoreload 18244 17820 Watching for file changes with StatReloader
+INFO 2026-05-13 11:17:31,023 autoreload 18244 17820 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:17:33,024 autoreload 17176 15044 Watching for file changes with StatReloader
+INFO 2026-05-13 11:17:38,471 autoreload 17176 15044 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:17:40,462 autoreload 7176 1712 Watching for file changes with StatReloader
+INFO 2026-05-13 11:17:48,060 autoreload 7176 1712 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:17:50,077 autoreload 15552 18080 Watching for file changes with StatReloader
+INFO 2026-05-13 11:18:23,697 autoreload 15552 18080 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:18:25,978 autoreload 7676 14400 Watching for file changes with StatReloader
+INFO 2026-05-13 11:18:31,904 autoreload 7676 14400 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:18:34,090 autoreload 17792 6636 Watching for file changes with StatReloader
+INFO 2026-05-13 11:18:41,687 autoreload 17792 6636 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:18:43,672 autoreload 17444 18152 Watching for file changes with StatReloader
+INFO 2026-05-13 11:18:48,463 autoreload 17444 18152 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:18:50,362 autoreload 18044 15112 Watching for file changes with StatReloader
+INFO 2026-05-13 11:22:19,852 autoreload 18044 15112 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:22:21,758 autoreload 13804 2480 Watching for file changes with StatReloader
+INFO 2026-05-13 11:22:26,564 autoreload 13804 2480 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:22:28,053 autoreload 12452 12528 Watching for file changes with StatReloader
+INFO 2026-05-13 11:22:40,817 autoreload 12452 12528 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:22:42,402 autoreload 13864 15552 Watching for file changes with StatReloader
+INFO 2026-05-13 11:22:46,740 autoreload 13864 15552 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:22:48,274 autoreload 14280 16972 Watching for file changes with StatReloader
+INFO 2026-05-13 11:22:57,670 autoreload 14280 16972 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:22:59,282 autoreload 18264 7508 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:01,547 autoreload 18264 7508 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:03,322 autoreload 16788 12528 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:08,062 autoreload 16788 12528 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:09,502 autoreload 18260 10444 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:12,872 autoreload 18260 10444 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:14,465 autoreload 15116 3276 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:21,356 autoreload 15116 3276 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:23,076 autoreload 16280 9372 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:50,715 autoreload 16280 9372 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:52,606 autoreload 12844 17356 Watching for file changes with StatReloader
+INFO 2026-05-13 11:23:57,372 autoreload 12844 17356 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:23:58,978 autoreload 17812 10792 Watching for file changes with StatReloader
+INFO 2026-05-13 11:24:43,922 autoreload 17812 10792 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:24:45,578 autoreload 1696 1544 Watching for file changes with StatReloader
+INFO 2026-05-13 11:24:50,124 autoreload 1696 1544 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:24:51,797 autoreload 18156 9364 Watching for file changes with StatReloader
+INFO 2026-05-13 11:24:59,646 autoreload 18156 9364 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:25:01,642 autoreload 4368 18280 Watching for file changes with StatReloader
+INFO 2026-05-13 11:25:21,568 autoreload 4368 18280 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:25:23,120 autoreload 17800 7576 Watching for file changes with StatReloader
+INFO 2026-05-13 11:25:27,617 autoreload 17800 7576 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:25:29,340 autoreload 532 10920 Watching for file changes with StatReloader
+INFO 2026-05-13 11:25:34,138 autoreload 532 10920 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:25:35,828 autoreload 10868 15500 Watching for file changes with StatReloader
+INFO 2026-05-13 11:28:42,500 autoreload 10868 15500 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:28:44,293 autoreload 9792 7176 Watching for file changes with StatReloader
+INFO 2026-05-13 11:29:02,157 autoreload 9792 7176 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:29:04,193 autoreload 14784 14348 Watching for file changes with StatReloader
+INFO 2026-05-13 11:29:08,949 autoreload 14784 14348 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:29:11,215 autoreload 7676 11892 Watching for file changes with StatReloader
+INFO 2026-05-13 11:29:23,365 autoreload 7676 11892 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:29:25,548 autoreload 17844 9896 Watching for file changes with StatReloader
+INFO 2026-05-13 11:29:50,569 autoreload 17844 9896 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:29:52,744 autoreload 15488 14684 Watching for file changes with StatReloader
+INFO 2026-05-13 11:29:59,140 autoreload 15488 14684 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:30:01,058 autoreload 10200 2480 Watching for file changes with StatReloader
+INFO 2026-05-13 11:30:09,298 autoreload 10200 2480 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:30:11,266 autoreload 18280 6448 Watching for file changes with StatReloader
+INFO 2026-05-13 11:30:14,540 autoreload 18280 6448 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:30:16,941 autoreload 9896 17348 Watching for file changes with StatReloader
+INFO 2026-05-13 11:30:25,236 autoreload 9896 17348 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:30:27,051 autoreload 12548 6448 Watching for file changes with StatReloader
+INFO 2026-05-13 11:30:35,481 autoreload 12548 6448 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:30:37,395 autoreload 13776 18092 Watching for file changes with StatReloader
+INFO 2026-05-13 11:31:01,321 autoreload 13776 18092 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:31:03,603 autoreload 17316 4600 Watching for file changes with StatReloader
+INFO 2026-05-13 11:31:09,226 autoreload 17316 4600 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:31:11,223 autoreload 12096 10272 Watching for file changes with StatReloader
+INFO 2026-05-13 11:31:18,827 autoreload 12096 10272 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:31:21,214 autoreload 2104 4036 Watching for file changes with StatReloader
+INFO 2026-05-13 11:31:36,798 autoreload 2104 4036 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:31:39,173 autoreload 17116 14096 Watching for file changes with StatReloader
+INFO 2026-05-13 11:32:20,939 autoreload 17116 14096 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:32:23,269 autoreload 9504 17364 Watching for file changes with StatReloader
+INFO 2026-05-13 11:35:17,888 log 9504 14684 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2566
+INFO 2026-05-13 11:36:47,343 log 9504 14684 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 11:36:47,392 log 9504 14684 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 727
+INFO 2026-05-13 11:36:49,353 log 9504 14684 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2566
+INFO 2026-05-13 11:36:53,210 log 9504 14684 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 11:36:53,232 log 9504 13864 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 727
+INFO 2026-05-13 11:36:56,479 log 9504 13864 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2566
+INFO 2026-05-13 11:37:26,366 autoreload 9504 17364 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:37:28,500 autoreload 11224 11240 Watching for file changes with StatReloader
+INFO 2026-05-13 11:37:56,923 autoreload 11224 11240 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:37:59,885 autoreload 10664 10672 Watching for file changes with StatReloader
+INFO 2026-05-13 11:39:20,832 log 10664 13316 "OPTIONS /tcourse/nav/ HTTP/1.1" 200 0
+INFO 2026-05-13 11:39:20,871 log 10664 10272 "OPTIONS /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 11:39:20,874 log 10664 13316 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 11:39:21,009 log 10664 10272 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 727
+INFO 2026-05-13 11:41:30,160 autoreload 10664 10672 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:41:32,675 autoreload 11212 17176 Watching for file changes with StatReloader
+INFO 2026-05-13 11:41:41,205 autoreload 11212 17176 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 11:41:44,009 autoreload 10160 12052 Watching for file changes with StatReloader
+INFO 2026-05-13 11:42:46,108 autoreload 10160 12052 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:42:48,276 autoreload 2440 17364 Watching for file changes with StatReloader
+INFO 2026-05-13 11:43:15,758 autoreload 2440 17364 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:43:18,117 autoreload 11088 13424 Watching for file changes with StatReloader
+INFO 2026-05-13 11:45:36,021 log 11088 15312 "OPTIONS /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 0
+ERROR 2026-05-13 11:45:36,081 log 11088 15312 Internal Server Error: /euser/rechargeactivity/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 351, in get
+    now = datetime.datetime.now()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR 2026-05-13 11:45:36,090 log 11088 15312 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 500 20126
+INFO 2026-05-13 11:46:20,544 autoreload 11088 13424 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:46:22,429 autoreload 10652 16800 Watching for file changes with StatReloader
+INFO 2026-05-13 11:46:28,103 autoreload 10652 16800 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:46:29,922 autoreload 16948 11644 Watching for file changes with StatReloader
+INFO 2026-05-13 11:46:35,585 autoreload 16948 11644 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:46:37,534 autoreload 16972 18280 Watching for file changes with StatReloader
+INFO 2026-05-13 11:46:41,307 log 16972 10804 "OPTIONS /euser/rechargeactivity/?amount=100 HTTP/1.1" 200 0
+ERROR 2026-05-13 11:46:41,370 log 16972 10804 Internal Server Error: /euser/rechargeactivity/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 353, in get
+    now = datetime.datetime.now()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR 2026-05-13 11:46:41,383 log 16972 10804 "GET /euser/rechargeactivity/?amount=100 HTTP/1.1" 500 20126
+INFO 2026-05-13 11:47:21,148 autoreload 16972 18280 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:47:23,255 autoreload 18252 16372 Watching for file changes with StatReloader
+ERROR 2026-05-13 11:47:27,725 log 18252 10372 Internal Server Error: /euser/rechargeactivity/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 353, in get
+    now = datetime.datetime.now()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR 2026-05-13 11:47:27,742 log 18252 10372 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 500 20126
+INFO 2026-05-13 11:48:14,047 log 18252 10372 "OPTIONS /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 11:48:14,192 log 18252 10372 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2551
+INFO 2026-05-13 11:48:23,858 log 18252 10372 "OPTIONS /tcourse/pay/ HTTP/1.1" 200 0
+INFO 2026-05-13 11:48:24,106 log 18252 10372 "POST /tcourse/pay/ HTTP/1.1" 200 940
+INFO 2026-05-13 11:48:54,111 autoreload 18252 16372 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:48:56,405 autoreload 12744 12556 Watching for file changes with StatReloader
+INFO 2026-05-13 11:49:01,812 autoreload 12744 12556 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:49:04,019 autoreload 2320 16948 Watching for file changes with StatReloader
+INFO 2026-05-13 11:49:08,697 autoreload 2320 16948 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 11:49:10,508 autoreload 13016 4300 Watching for file changes with StatReloader
+INFO 2026-05-13 11:49:31,038 log 13016 14980 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=842010259454300160&method=alipay.trade.page.pay.return&total_amount=889.57&sign=PfydaCu%2FlXsdQ4ELsp%2BYRHORK%2BhkrfKhPRmP88XUB46oj2y65KJiPTgWfpPA%2BHPHOdIywGgkDiKL6C3P52Cw18ro1qF1k1%2FQxG0wTqZMYvSaTsnMQ3PPwfyx08AaCZ6ViMJSP8OSn3cq85J05N93n6ETwC1ouYcdDykPw4gaOHdIMzF%2FnXHzUclUBbHmahXmLtjQQ4SySrhTC82Gouq2i8M8R1SAD2Wq8OndxXWGRf%2Fe5yfj400QauTp%2FV50xZZ9ZfYNZ8VAyWA4pvthio8tnoz2VrSLVJUmddzQldBKjO%2BH1FON8Tr67fgxvHHsSAqu%2F3pxLJwgImnWCeUafPpxGQ%3D%3D&trade_no=2026051322001459060508521818&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-13+11%3A49%3A25 HTTP/1.1" 302 0
+INFO 2026-05-13 11:58:52,514 log 13016 7508 "OPTIONS /tcourse/orders/?order_number=842010259454300160 HTTP/1.1" 200 0
+INFO 2026-05-13 11:58:52,520 log 13016 14008 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 11:58:52,604 log 13016 7508 "GET /tcourse/orders/?order_number=842010259454300160 HTTP/1.1" 200 727
+INFO 2026-05-13 11:59:13,299 log 13016 7508 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 11:59:13,350 log 13016 14008 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 1223
+WARNING 2026-05-13 11:59:13,897 log 13016 2440 Not Found: /upload/course/33.png
+WARNING 2026-05-13 11:59:13,902 log 13016 2440 "GET /upload/course/33.png HTTP/1.1" 404 6088
+INFO 2026-05-13 11:59:15,851 log 13016 14008 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 11:59:19,963 log 13016 14008 "OPTIONS /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 11:59:20,052 log 13016 14008 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2599
+INFO 2026-05-13 11:59:24,921 log 13016 14008 "OPTIONS /euser/refund/ HTTP/1.1" 200 0
+ERROR 2026-05-13 11:59:24,999 log 13016 14008 Internal Server Error: /euser/refund/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 320, in post
+    refund = Refund.objects.create(user_id=user_id,order_number=orderno,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+TypeError: Refund() got unexpected keyword arguments: 'order_number', 'amonut'
+ERROR 2026-05-13 11:59:25,011 log 13016 14008 "POST /euser/refund/ HTTP/1.1" 500 20687
+INFO 2026-05-13 13:52:46,095 autoreload 13016 4300 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 13:52:47,165 autoreload 21288 21260 Watching for file changes with StatReloader
+INFO 2026-05-13 13:56:58,596 autoreload 21288 21260 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 13:56:59,606 autoreload 11300 18848 Watching for file changes with StatReloader
+INFO 2026-05-13 13:58:45,734 autoreload 11300 18848 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 13:58:47,009 autoreload 20264 20856 Watching for file changes with StatReloader
+INFO 2026-05-13 13:58:50,186 autoreload 20264 20856 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 13:58:51,203 autoreload 11672 21220 Watching for file changes with StatReloader
+INFO 2026-05-13 13:58:54,747 autoreload 11672 21220 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 13:58:55,931 autoreload 19044 2776 Watching for file changes with StatReloader
+INFO 2026-05-13 13:59:49,277 autoreload 19044 2776 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 13:59:50,265 autoreload 3956 18156 Watching for file changes with StatReloader
+INFO 2026-05-13 13:59:58,449 autoreload 3956 18156 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 13:59:59,563 autoreload 10676 20100 Watching for file changes with StatReloader
+INFO 2026-05-13 14:03:08,902 autoreload 10676 20100 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 14:03:10,207 autoreload 4368 10612 Watching for file changes with StatReloader
+INFO 2026-05-13 14:06:01,105 autoreload 4368 10612 E:\AICM\demo\p3\myproject\tcourse\views.py changed, reloading.
+INFO 2026-05-13 14:06:03,304 autoreload 10672 19280 Watching for file changes with StatReloader
+INFO 2026-05-13 14:06:39,500 log 10672 17248 "OPTIONS /euser/recharge/ HTTP/1.1" 200 0
+ERROR 2026-05-13 14:06:39,620 log 10672 17248 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "D:\software\pythono312\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\software\pythono312\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'edupro.recharge_activity' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 386, in post
+    activity = RechargeActivity.objects.filter(amount__lte=float(amount),start_time__lte=now,end_time__gte=now).first()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1145, in first
+    for obj in queryset[:1]:
+               ~~~~~~~~^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 390, in __iter__
+    self._fetch_all()
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 2000, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 95, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\compiler.py", line 1624, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\utils.py", line 94, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\cursors.py", line 153, in execute
+    result = self._query(query)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 575, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 826, in _read_query_result
+    result.read()
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 1203, in read
+    first_packet = self.connection._read_packet()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\pymysql\connections.py", line 782, in _read_packet
+    packet.raise_for_error()
+  File "D:\software\pythono312\Lib\site-packages\pymysql\protocol.py", line 219, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\software\pythono312\Lib\site-packages\pymysql\err.py", line 150, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'edupro.recharge_activity' doesn't exist")
+ERROR 2026-05-13 14:06:39,635 log 10672 17248 "POST /euser/recharge/ HTTP/1.1" 500 25670
+INFO 2026-05-13 16:04:07,304 autoreload 23532 20572 Watching for file changes with StatReloader
+INFO 2026-05-13 16:04:14,568 log 23532 22560 "OPTIONS /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:04:14,569 log 23532 22332 "OPTIONS /tcourse/nav/ HTTP/1.1" 200 0
+INFO 2026-05-13 16:04:14,663 log 23532 22560 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 1223
+INFO 2026-05-13 16:04:14,690 log 23532 22332 "GET /tcourse/nav/ HTTP/1.1" 200 190
+WARNING 2026-05-13 16:04:15,348 log 23532 20652 Not Found: /upload/course/33.png
+WARNING 2026-05-13 16:04:15,349 log 23532 20652 "GET /upload/course/33.png HTTP/1.1" 404 6088
+INFO 2026-05-13 16:04:19,129 log 23532 22332 "OPTIONS /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:04:19,184 log 23532 22332 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 16:04:20,827 log 23532 22332 "OPTIONS /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:04:20,925 log 23532 22332 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:04:26,729 log 23532 22332 "OPTIONS /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:04:26,899 log 23532 22332 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2599
+INFO 2026-05-13 16:04:31,032 log 23532 22332 "OPTIONS /euser/refund/ HTTP/1.1" 200 0
+ERROR 2026-05-13 16:04:31,099 log 23532 22332 Internal Server Error: /euser/refund/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 318, in post
+    refund = Refund.objects.create(user_id=user_id,order_number=orderno,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+TypeError: Refund() got unexpected keyword arguments: 'order_number', 'amonut'
+ERROR 2026-05-13 16:04:31,116 log 23532 22332 "POST /euser/refund/ HTTP/1.1" 500 20687
+INFO 2026-05-13 16:05:36,529 log 23532 22332 "OPTIONS /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 0
+INFO 2026-05-13 16:05:36,563 log 23532 22332 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+ERROR 2026-05-13 16:05:40,509 log 23532 22332 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 392, in post
+    record = RechargeRecord.objects.create(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 667, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\base.py", line 590, in __init__
+    raise TypeError(
+TypeError: RechargeRecord() got unexpected keyword arguments: 'is_gave'
+ERROR 2026-05-13 16:05:40,522 log 23532 22332 "POST /euser/recharge/ HTTP/1.1" 500 20591
+INFO 2026-05-13 16:08:11,489 autoreload 23532 20572 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:08:12,902 autoreload 19200 23612 Watching for file changes with StatReloader
+INFO 2026-05-13 16:09:05,014 log 19200 9272 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:09:06,205 log 19200 9272 "OPTIONS /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:09:06,308 log 19200 9272 "GET /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 2923
+INFO 2026-05-13 16:09:07,610 log 19200 9272 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:09:11,399 log 19200 9272 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2599
+INFO 2026-05-13 16:09:18,559 log 19200 9272 "POST /euser/refund/ HTTP/1.1" 200 33
+INFO 2026-05-13 16:09:20,684 log 19200 9272 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2075
+INFO 2026-05-13 16:11:32,889 autoreload 19200 23612 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:11:33,787 autoreload 19644 11000 Watching for file changes with StatReloader
+INFO 2026-05-13 16:12:05,202 autoreload 19644 11000 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:12:06,463 autoreload 20456 24188 Watching for file changes with StatReloader
+INFO 2026-05-13 16:12:09,924 autoreload 20456 24188 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:12:11,072 autoreload 7300 23640 Watching for file changes with StatReloader
+INFO 2026-05-13 16:12:15,556 autoreload 7300 23640 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:12:17,095 autoreload 1352 23396 Watching for file changes with StatReloader
+INFO 2026-05-13 16:12:22,694 autoreload 1352 23396 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:12:23,617 autoreload 3032 19796 Watching for file changes with StatReloader
+INFO 2026-05-13 16:12:47,250 log 3032 23840 "POST /euser/refund/ HTTP/1.1" 200 33
+INFO 2026-05-13 16:13:20,422 log 3032 23840 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:14:07,791 log 3032 23840 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1561
+INFO 2026-05-13 16:15:07,996 log 3032 23840 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:15:08,079 log 3032 23840 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:15:10,063 log 3032 23840 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:15:11,119 log 3032 23840 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1561
+INFO 2026-05-13 16:15:12,724 log 3032 23840 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:15:15,529 log 3032 23840 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1561
+INFO 2026-05-13 16:15:42,445 log 3032 23840 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:15:42,469 log 3032 10228 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:15:44,262 log 3032 10228 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:15:45,428 log 3032 10228 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2085
+INFO 2026-05-13 16:17:56,872 log 3032 10228 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 16:17:57,773 log 3032 10228 "OPTIONS /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 0
+INFO 2026-05-13 16:17:57,787 log 3032 10228 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 16:17:59,871 log 3032 10228 "OPTIONS /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 0
+INFO 2026-05-13 16:17:59,887 log 3032 10228 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 16:18:01,356 log 3032 10228 "OPTIONS /euser/rechargeactivity/?amount=100 HTTP/1.1" 200 0
+INFO 2026-05-13 16:18:01,385 log 3032 10228 "GET /euser/rechargeactivity/?amount=100 HTTP/1.1" 200 51
+INFO 2026-05-13 16:18:02,563 log 3032 10228 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 16:18:06,202 log 3032 10228 "OPTIONS /euser/recharge/ HTTP/1.1" 200 0
+ERROR 2026-05-13 16:18:06,273 log 3032 10228 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 397, in post
+    is_give=is_give,
+            ^^^^^^
+NameError: name 'is_gve' is not defined. Did you mean: 'is_give'?
+ERROR 2026-05-13 16:18:06,282 log 3032 10228 "POST /euser/recharge/ HTTP/1.1" 500 19993
+INFO 2026-05-13 16:18:33,414 autoreload 3032 19796 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:18:34,313 autoreload 22204 2044 Watching for file changes with StatReloader
+INFO 2026-05-13 16:18:38,174 log 22204 3224 "POST /euser/recharge/ HTTP/1.1" 200 935
+INFO 2026-05-13 16:19:40,365 log 22204 3224 "POST /euser/recharge/ HTTP/1.1" 200 931
+INFO 2026-05-13 16:21:09,633 autoreload 22204 2044 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:21:10,785 autoreload 23884 23708 Watching for file changes with StatReloader
+INFO 2026-05-13 16:21:45,781 log 23884 6632 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=2a&method=alipay.trade.page.pay.return&total_amount=200.00&sign=fWM5XTaBD6mhcOp%2Fv817E6O0Qbn21HD34krno40kKrsa2e%2BTd68qXCqDvFLE8500ASGH9RDoYHnJt0Tlttt4udmaCKwHO2osoOyejP0KI3KvT4wEzefzu8gsWuZ7YnPGsLdWXkgkyZ%2FzMEKYlqVwj9RuA5ZSj0%2FDgkoewQgQXkUMmjCF01eQsnscEDhOQA5zdmIDNcrYDnOzH6rdPqL0T0BGCip0aqWQILWYFZgEBqfOq5%2F492ujyL%2BW6BqYeu9WSZaFddpQ25GLnrsIgHxmN2gV7OytLkxy%2Fp1OZHAQTZEiw5%2BLQX3ql1M1USK7KkIBlYXK3MCVmRei7ylqpPeJBQ%3D%3D&trade_no=2026051322001459060508528349&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-13+16%3A21%3A40 HTTP/1.1" 302 0
+INFO 2026-05-13 16:25:00,290 log 23884 21572 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:25:00,295 log 23884 21572 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:25:00,313 log 23884 20076 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:25:00,344 log 23884 20076 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:25:04,561 log 23884 6632 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=2a&method=alipay.trade.page.pay.return&total_amount=200.00&sign=MY%2BtbMeU5bHoUw%2BujatyPVZov%2B5ScgVzeqFprcP5GYAAStIPkgfD4iCQu5jNPgGAP1tYgLYs%2FMtcRJRu%2BDqMMMEXJvkuhb0aPR6XwyH3pXcmv2rvtdPpIpf2Vlkd7Wl5hGH5zvfLlGOIRlTqkX6JhaDSCXo8NavDsmkAHHmAK0eS2s3kIgJvNZuvZJt%2F%2BEdJybS%2Bml%2B0KThh0cuf5rU1%2B%2FCYn10miavtVi4SL%2Bwh5lSpzODYgQX2CQrc%2FL%2F8wXdr%2FyCfFcke38FSMP6yiQXHCGL2zJJXuWBrqBoQ2IH%2F%2FM2FqGI%2F1b58YwehB49ToGdzLXUKt7gd17%2FKTr56ZHq46Q%3D%3D&trade_no=2026051322001459060508528349&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-13+16%3A24%3A51 HTTP/1.1" 302 0
+INFO 2026-05-13 16:25:05,102 log 23884 20076 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:25:05,129 log 23884 21572 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:25:14,963 log 23884 21572 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:25:14,981 log 23884 20076 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:38:11,106 autoreload 23884 23708 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:38:12,436 autoreload 24012 2996 Watching for file changes with StatReloader
+INFO 2026-05-13 16:39:56,337 autoreload 24012 2996 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:39:57,322 autoreload 19912 8344 Watching for file changes with StatReloader
+INFO 2026-05-13 16:39:59,477 autoreload 19912 8344 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:00,676 autoreload 9272 15264 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:02,633 autoreload 9272 15264 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:03,729 autoreload 7276 18024 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:05,767 autoreload 7276 18024 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:06,776 autoreload 7300 22640 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:08,769 autoreload 7300 22640 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:09,878 autoreload 18448 9936 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:15,085 autoreload 18448 9936 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:16,053 autoreload 3664 9604 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:18,034 autoreload 3664 9604 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:19,217 autoreload 22212 24076 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:22,399 autoreload 22212 24076 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:23,277 autoreload 1560 24284 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:27,505 autoreload 1560 24284 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:28,432 autoreload 21400 20460 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:30,544 autoreload 21400 20460 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:31,544 autoreload 18768 11208 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:35,660 autoreload 18768 11208 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:36,935 autoreload 13804 20572 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:44,906 autoreload 13804 20572 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:45,937 autoreload 10680 10704 Watching for file changes with StatReloader
+INFO 2026-05-13 16:40:53,576 autoreload 10680 10704 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:40:54,547 autoreload 19288 21632 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:04,192 autoreload 19288 21632 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:05,189 autoreload 8096 1564 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:10,424 autoreload 8096 1564 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:11,421 autoreload 9160 19996 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:14,523 autoreload 9160 19996 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:15,764 autoreload 2428 23596 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:17,701 autoreload 2428 23596 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:18,526 autoreload 7572 22708 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:23,919 autoreload 7572 22708 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:24,793 autoreload 22856 10176 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:27,038 autoreload 22856 10176 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:27,901 autoreload 5824 21512 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:36,425 autoreload 5824 21512 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:37,342 autoreload 21628 20356 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:39,226 autoreload 21628 20356 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:40,291 autoreload 19912 21360 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:42,361 autoreload 19912 21360 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:43,193 autoreload 19292 18812 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:52,783 autoreload 19292 18812 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:53,822 autoreload 22556 8364 Watching for file changes with StatReloader
+INFO 2026-05-13 16:41:56,894 autoreload 22556 8364 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:41:57,804 autoreload 940 19228 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:00,941 autoreload 940 19228 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:02,038 autoreload 14148 21788 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:05,119 autoreload 14148 21788 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:05,979 autoreload 20248 21324 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:08,057 autoreload 20248 21324 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:09,028 autoreload 16956 7424 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:11,201 autoreload 16956 7424 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:12,175 autoreload 21900 18716 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:14,144 autoreload 21900 18716 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:15,000 autoreload 24024 8240 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:20,334 autoreload 24024 8240 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:22,026 autoreload 10568 18800 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:24,230 autoreload 10568 18800 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:25,178 autoreload 15656 11092 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:27,095 autoreload 15656 11092 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:28,105 autoreload 2512 24404 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:41,135 autoreload 2512 24404 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:42,042 autoreload 1756 10092 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:44,927 autoreload 1756 10092 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:45,871 autoreload 2280 23140 Watching for file changes with StatReloader
+INFO 2026-05-13 16:42:47,822 autoreload 2280 23140 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:42:48,882 autoreload 2956 23792 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:05,469 autoreload 2956 23792 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:06,329 autoreload 432 22660 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:09,283 autoreload 432 22660 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:10,127 autoreload 9104 20448 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:13,044 autoreload 9104 20448 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:14,332 autoreload 18044 1948 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:21,715 autoreload 18044 1948 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:22,519 autoreload 24216 16412 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:28,974 autoreload 24216 16412 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:29,835 autoreload 22388 10596 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:32,937 autoreload 22388 10596 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:33,998 autoreload 23868 19588 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:35,834 autoreload 23868 19588 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:36,796 autoreload 23208 12932 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:39,750 autoreload 23208 12932 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:40,642 autoreload 18820 7276 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:43,682 autoreload 18820 7276 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:44,655 autoreload 22996 21080 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:46,535 autoreload 22996 21080 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:47,408 autoreload 18268 21072 Watching for file changes with StatReloader
+INFO 2026-05-13 16:45:49,291 autoreload 18268 21072 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:45:50,168 autoreload 16272 5464 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:02,141 autoreload 16272 5464 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:02,960 autoreload 9184 3832 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:05,921 autoreload 9184 3832 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:06,818 autoreload 18712 14148 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:09,817 autoreload 18712 14148 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:10,821 autoreload 9608 5652 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:12,734 autoreload 9608 5652 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:13,633 autoreload 10156 9928 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:15,446 autoreload 10156 9928 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:16,373 autoreload 4688 2580 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:23,964 autoreload 4688 2580 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:24,876 autoreload 8316 24440 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:27,980 autoreload 8316 24440 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:28,810 autoreload 8332 15568 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:30,642 autoreload 8332 15568 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:31,582 autoreload 21140 22480 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:36,806 autoreload 21140 22480 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:37,857 autoreload 18008 22836 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:48,859 autoreload 18008 22836 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:49,667 autoreload 21436 18880 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:51,555 autoreload 21436 18880 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:52,866 autoreload 3176 9412 Watching for file changes with StatReloader
+INFO 2026-05-13 16:46:54,757 autoreload 3176 9412 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:46:55,606 autoreload 22692 3832 Watching for file changes with StatReloader
+INFO 2026-05-13 16:47:09,608 autoreload 22692 3832 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:47:10,405 autoreload 7320 24524 Watching for file changes with StatReloader
+INFO 2026-05-13 16:47:15,484 autoreload 7320 24524 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:47:16,332 autoreload 21316 22716 Watching for file changes with StatReloader
+INFO 2026-05-13 16:47:26,982 autoreload 21316 22716 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:47:28,052 autoreload 7976 18176 Watching for file changes with StatReloader
+INFO 2026-05-13 16:49:02,555 autoreload 7976 18176 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:49:03,586 autoreload 22632 24276 Watching for file changes with StatReloader
+INFO 2026-05-13 16:49:05,397 autoreload 22632 24276 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:49:06,343 autoreload 21696 19604 Watching for file changes with StatReloader
+INFO 2026-05-13 16:49:13,786 autoreload 21696 19604 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:49:14,787 autoreload 21524 22196 Watching for file changes with StatReloader
+INFO 2026-05-13 16:49:21,298 autoreload 21524 22196 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:49:22,337 autoreload 8372 23304 Watching for file changes with StatReloader
+INFO 2026-05-13 16:50:04,002 autoreload 8372 23304 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:50:05,202 autoreload 4160 7016 Watching for file changes with StatReloader
+INFO 2026-05-13 16:51:02,576 autoreload 4160 7016 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:51:04,053 autoreload 10088 20092 Watching for file changes with StatReloader
+INFO 2026-05-13 16:51:15,408 autoreload 10088 20092 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:51:16,584 autoreload 22684 22464 Watching for file changes with StatReloader
+INFO 2026-05-13 16:52:40,861 autoreload 22684 22464 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 16:52:42,119 autoreload 8024 24232 Watching for file changes with StatReloader
+INFO 2026-05-13 16:54:03,734 autoreload 8024 24232 E:\AICM\demo\p3\myproject\euser\ser.py changed, reloading.
+INFO 2026-05-13 16:54:04,645 autoreload 23424 16352 Watching for file changes with StatReloader
+INFO 2026-05-13 16:54:20,976 autoreload 23424 16352 E:\AICM\demo\p3\myproject\euser\ser.py changed, reloading.
+INFO 2026-05-13 16:54:21,830 autoreload 23780 6824 Watching for file changes with StatReloader
+INFO 2026-05-13 16:54:32,531 autoreload 23780 6824 E:\AICM\demo\p3\myproject\euser\ser.py changed, reloading.
+INFO 2026-05-13 16:54:33,386 autoreload 21532 19516 Watching for file changes with StatReloader
+INFO 2026-05-13 16:54:38,664 autoreload 21532 19516 E:\AICM\demo\p3\myproject\euser\ser.py changed, reloading.
+INFO 2026-05-13 16:54:39,589 autoreload 15680 23944 Watching for file changes with StatReloader
+INFO 2026-05-13 16:54:53,649 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:54:53,681 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:54:58,759 log 15680 4160 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:54:58,788 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:55:22,336 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:55:22,363 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:55:22,972 log 15680 4160 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:55:22,989 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:55:28,145 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:55:28,158 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:56:15,639 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:56:20,439 log 15680 4160 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:56:22,199 log 15680 4160 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 2085
+INFO 2026-05-13 16:56:35,698 log 15680 4160 "POST /euser/refund/ HTTP/1.1" 200 51
+INFO 2026-05-13 16:57:44,772 log 15680 4160 "OPTIONS /euser/userinfo/?user_id=5 HTTP/1.1" 200 0
+INFO 2026-05-13 16:57:44,797 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:57:44,844 log 15680 4160 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 16:57:44,848 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:58:07,364 log 15680 20116 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 16:58:08,122 log 15680 20116 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 16:58:08,788 log 15680 20116 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 16:58:10,384 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:58:11,890 log 15680 20116 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 16:58:13,744 log 15680 20116 "GET /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 2923
+INFO 2026-05-13 16:58:42,349 log 15680 20116 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1922
+INFO 2026-05-13 16:58:48,178 log 15680 20116 "GET /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 2923
+INFO 2026-05-13 16:59:37,784 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 16:59:37,797 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 16:59:37,867 log 15680 20116 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 16:59:41,641 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 16:59:43,355 log 15680 20116 "OPTIONS /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 16:59:43,367 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 16:59:44,226 log 15680 20116 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:00:05,043 log 15680 20116 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 17:00:05,063 log 15680 3700 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 17:00:05,069 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:00:23,297 log 15680 4160 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:01:10,914 autoreload 15680 23944 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:01:11,952 autoreload 21028 8712 Watching for file changes with StatReloader
+INFO 2026-05-13 17:04:19,830 autoreload 21028 8712 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:04:20,751 autoreload 19552 23524 Watching for file changes with StatReloader
+INFO 2026-05-13 17:04:22,801 autoreload 19552 23524 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:04:23,807 autoreload 22644 13316 Watching for file changes with StatReloader
+INFO 2026-05-13 17:04:27,521 autoreload 22644 13316 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:04:28,708 autoreload 23428 21816 Watching for file changes with StatReloader
+INFO 2026-05-13 17:04:32,347 autoreload 23428 21816 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:04:33,598 autoreload 16184 4252 Watching for file changes with StatReloader
+INFO 2026-05-13 17:05:06,101 log 16184 13640 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:05:06,728 log 16184 13640 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:05:09,870 log 16184 13640 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:05:11,025 log 16184 13640 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:05:11,659 log 16184 13640 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:05:13,286 log 16184 13640 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 17:05:15,336 log 16184 4336 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1922
+INFO 2026-05-13 17:05:27,464 log 16184 4336 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:05:33,301 log 16184 4336 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:05:34,159 log 16184 4336 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:05:36,168 log 16184 4336 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 43
+INFO 2026-05-13 17:05:37,269 log 16184 4336 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:10:03,175 log 16184 23056 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 17:10:03,193 log 16184 23964 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 17:10:03,194 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:10:04,796 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 489
+WARNING 2026-05-13 17:10:05,133 log 16184 15552 Not Found: /upload/course/33.png
+WARNING 2026-05-13 17:10:05,134 log 16184 15552 "GET /upload/course/33.png HTTP/1.1" 404 6330
+INFO 2026-05-13 17:10:07,217 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2026-05-13 17:10:10,257 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:10:13,312 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 489
+WARNING 2026-05-13 17:10:13,325 log 16184 18624 Not Found: /upload/course/33.png
+WARNING 2026-05-13 17:10:13,327 log 16184 18624 "GET /upload/course/33.png HTTP/1.1" 404 6330
+INFO 2026-05-13 17:10:17,031 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:10:18,506 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 489
+WARNING 2026-05-13 17:10:18,825 log 16184 23780 Not Found: /upload/course/33.png
+WARNING 2026-05-13 17:10:18,826 log 16184 23780 "GET /upload/course/33.png HTTP/1.1" 404 6330
+INFO 2026-05-13 17:10:46,831 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 770
+WARNING 2026-05-13 17:10:46,852 log 16184 21140 Not Found: /upload/course/33.png
+WARNING 2026-05-13 17:10:46,856 log 16184 21140 "GET /upload/course/33.png HTTP/1.1" 404 6330
+INFO 2026-05-13 17:10:48,378 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 244
+INFO 2026-05-13 17:10:49,218 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2026-05-13 17:10:50,197 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 244
+INFO 2026-05-13 17:10:51,252 log 16184 20460 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 770
+WARNING 2026-05-13 17:10:51,578 log 16184 20048 Not Found: /upload/course/33.png
+WARNING 2026-05-13 17:10:51,578 log 16184 20048 "GET /upload/course/33.png HTTP/1.1" 404 6330
+INFO 2026-05-13 17:12:10,281 log 16184 20460 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 17:12:10,299 log 16184 23056 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 17:12:10,313 log 16184 23964 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:12:12,121 log 16184 23964 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 244
+INFO 2026-05-13 17:12:12,745 log 16184 23964 "GET /euser/mycourse/?user_id=5&types=3&page=1&page_size=10 HTTP/1.1" 200 495
+INFO 2026-05-13 17:12:14,056 log 16184 23964 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:12:15,647 log 16184 23964 "GET /euser/mycourse/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 244
+INFO 2026-05-13 17:12:16,671 log 16184 23964 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 17:12:20,268 log 16184 23964 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1922
+INFO 2026-05-13 17:12:27,625 log 16184 23964 "POST /euser/refund/ HTTP/1.1" 200 36
+INFO 2026-05-13 17:13:00,875 log 16184 23964 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 17:13:00,897 log 16184 20460 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 17:13:00,903 log 16184 23056 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 17:13:02,635 log 16184 23056 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 17:13:14,213 log 16184 23056 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+ERROR 2026-05-13 17:13:19,566 log 16184 23056 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 410, in post
+    activity.count = int(activity.count)+1
+                         ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'count'
+ERROR 2026-05-13 17:13:19,577 log 16184 23056 "POST /euser/recharge/ HTTP/1.1" 500 20074
+INFO 2026-05-13 17:14:34,188 autoreload 16184 4252 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:14:35,210 autoreload 3384 17308 Watching for file changes with StatReloader
+ERROR 2026-05-13 17:14:44,845 log 3384 23088 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 410, in post
+    activity.count = int(activity.count)+1
+                         ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'count'
+ERROR 2026-05-13 17:14:44,853 log 3384 23088 "POST /euser/recharge/ HTTP/1.1" 500 20074
+INFO 2026-05-13 17:15:17,373 autoreload 3384 17308 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:15:18,648 autoreload 22256 23968 Watching for file changes with StatReloader
+INFO 2026-05-13 17:15:22,844 autoreload 22256 23968 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:15:23,834 autoreload 18812 19268 Watching for file changes with StatReloader
+ERROR 2026-05-13 17:15:28,169 log 18812 21328 Internal Server Error: /euser/recharge/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\euser\views.py", line 410, in post
+    activity.count = int(activity.count)+1
+                         ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'count'
+ERROR 2026-05-13 17:15:28,176 log 18812 21328 "POST /euser/recharge/ HTTP/1.1" 500 20074
+INFO 2026-05-13 17:17:47,359 autoreload 18812 19268 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 17:17:48,728 autoreload 18644 22380 Watching for file changes with StatReloader
+INFO 2026-05-13 17:19:04,488 log 18644 10760 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 17:19:06,351 log 18644 10760 "GET /euser/rechargeactivity/?amount=100 HTTP/1.1" 200 51
+INFO 2026-05-13 17:21:36,491 log 18644 10760 "POST /euser/recharge/ HTTP/1.1" 200 927
+INFO 2026-05-13 17:24:14,396 log 18644 10760 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 17:24:16,245 log 18644 10760 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1759
+INFO 2026-05-13 17:24:21,979 log 18644 10760 "OPTIONS /euser/comment/ HTTP/1.1" 200 0
+INFO 2026-05-13 17:24:22,055 log 18644 10760 "POST /euser/comment/ HTTP/1.1" 200 33
+INFO 2026-05-13 18:21:42,161 log 18644 21760 "OPTIONS /tcourse/recate/?floor=undefined HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,168 log 18644 7320 "OPTIONS /tcourse/nav/ HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,172 log 18644 15448 "OPTIONS /tcourse/cate/ HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,175 log 18644 7320 "OPTIONS /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,176 log 18644 22112 "OPTIONS /tcourse/banner/ HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,176 log 18644 21760 "OPTIONS /tcourse/recate/?floor=2 HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,357 log 18644 13464 "OPTIONS /tcourse/tags/ HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,374 log 18644 18816 "OPTIONS /tcourse/recate/?floor=1 HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,488 log 18644 7320 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 18:21:42,606 log 18644 13464 "GET /tcourse/banner/ HTTP/1.1" 200 507
+INFO 2026-05-13 18:21:42,614 log 18644 7320 "GET /tcourse/tags/ HTTP/1.1" 200 736
+INFO 2026-05-13 18:21:42,675 log 18644 18816 "GET /tcourse/recate/?floor=2 HTTP/1.1" 200 334
+INFO 2026-05-13 18:21:42,690 log 18644 13464 "GET /tcourse/recate/?floor=1 HTTP/1.1" 200 280
+ERROR 2026-05-13 18:21:42,724 log 18644 15448 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 84, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-13 18:21:42,736 log 18644 21760 Internal Server Error: /tcourse/courses/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 95, in get
+    courses = Courses.objects.filter(is_delete=False,is_recommend=True,floor=floor,top_category=category).all()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+INFO 2026-05-13 18:21:42,737 log 18644 18816 "OPTIONS /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,739 log 18644 13464 "OPTIONS /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 0
+INFO 2026-05-13 18:21:42,740 log 18644 22112 "GET /tcourse/cate/ HTTP/1.1" 200 577
+ERROR 2026-05-13 18:21:42,765 log 18644 15448 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22925
+ERROR 2026-05-13 18:21:42,775 log 18644 21760 "GET /tcourse/courses/?category=undefined&floor=undefined HTTP/1.1" 500 23016
+INFO 2026-05-13 18:21:42,819 log 18644 18816 "GET /tcourse/courses/?category=7&floor=2 HTTP/1.1" 200 870
+INFO 2026-05-13 18:21:42,823 log 18644 13464 "GET /tcourse/courses/?category=1&floor=1 HTTP/1.1" 200 1211
+ERROR 2026-05-13 18:21:42,884 log 18644 15448 Internal Server Error: /tcourse/recate/
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2128, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'undefined'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\core\handlers\base.py", line 198, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\views\generic\base.py", line 106, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\software\pythono312\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\AICM\demo\p3\myproject\tcourse\views.py", line 84, in get
+    recate = Category.objects.filter(is_delete=False,is_recommend=True,level=1,floor=floor).all()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1542, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1560, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\query.py", line 1570, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1676, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1708, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1618, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\sql\query.py", line 1445, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 35, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 391, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\lookups.py", line 93, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\pythono312\Lib\site-packages\django\db\models\fields\__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'floor' expected a number but got 'undefined'.
+ERROR 2026-05-13 18:21:42,900 log 18644 15448 "GET /tcourse/recate/?floor=undefined HTTP/1.1" 500 22925
+INFO 2026-05-13 18:37:43,842 log 18644 20596 "OPTIONS /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 0
+INFO 2026-05-13 18:37:43,933 log 18644 20596 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 18:37:48,860 log 18644 20596 "OPTIONS /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 0
+INFO 2026-05-13 18:37:48,886 log 18644 20596 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 18:37:53,765 log 18644 20596 "OPTIONS /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 0
+INFO 2026-05-13 18:37:53,807 log 18644 20596 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 18:45:17,343 log 18644 20344 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 18:53:51,364 log 18644 10232 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 18:53:55,105 log 18644 10232 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 18:53:57,628 log 18644 10232 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 18:53:58,656 log 18644 10232 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 18:53:59,005 log 18644 10232 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 18:54:00,794 log 18644 10232 "GET /euser/rechargeactivity/?amount=500 HTTP/1.1" 200 151
+INFO 2026-05-13 18:54:19,136 autoreload 18644 22380 E:\AICM\demo\p3\myproject\euser\views.py changed, reloading.
+INFO 2026-05-13 18:54:21,536 autoreload 18204 24280 Watching for file changes with StatReloader
+INFO 2026-05-13 18:59:52,973 log 18204 14280 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 18:59:55,889 log 18204 14280 "GET /euser/rechargeactivity/?amount=1000 HTTP/1.1" 200 151
+INFO 2026-05-13 18:59:57,246 log 18204 14280 "GET /euser/rechargeactivity/?amount=200 HTTP/1.1" 200 151
+INFO 2026-05-13 19:00:00,506 log 18204 14280 "OPTIONS /euser/recharge/ HTTP/1.1" 200 0
+INFO 2026-05-13 19:00:00,722 log 18204 14280 "POST /euser/recharge/ HTTP/1.1" 200 923
+INFO 2026-05-13 19:01:14,759 log 18204 16924 "GET /tcourse/alipaycallback/?charset=utf-8&out_trade_no=7a&method=alipay.trade.page.pay.return&total_amount=200.00&sign=d3RZMC%2F4M9D88kjxbll9OvEMKRwwEP7cXCI10XvZ%2B5AbYBwHti0z%2B7nfW2iU9XGSY3x4Khx2QV9JXXqubz6HyYl5eLVPAZjVaBPlDMlP3JpSHGvvTjzOBS%2FFKcTJh%2FUC9JjyQnzYNYG%2Bn%2BNnzsE9CN35uBfugZ9zSGkMQdxBR40GhFbk4ChkDMfL9u8is8ePzsarisUvLGm7goadPMCWuDonFN84s7dSU3oWs0e%2BenKB69N5%2FkH59mkT7gAiehU8xSDPedrfXoBk7DXeyaNtQpnkiXb4LGQq2zpK8W8o9qyKlEsSoZ9auE4gNM9wGhZB4SNV4MybHosXZUjwAmEkRQ%3D%3D&trade_no=2026051322001459060508530054&auth_app_id=9021000163650098&version=1.0&app_id=9021000163650098&sign_type=RSA2&seller_id=2088721101159054&timestamp=2026-05-13+19%3A01%3A10 HTTP/1.1" 302 0
+INFO 2026-05-13 19:01:15,419 log 18204 14280 "OPTIONS /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 19:01:15,429 log 18204 14280 "OPTIONS /euser/userinfo/?user_id=5 HTTP/1.1" 200 0
+INFO 2026-05-13 19:01:15,456 log 18204 14280 "GET /tcourse/nav/ HTTP/1.1" 200 190
+INFO 2026-05-13 19:01:15,509 log 18204 14280 "GET /euser/mycourse/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 525
+INFO 2026-05-13 19:01:15,552 log 18204 14280 "GET /euser/userinfo/?user_id=5 HTTP/1.1" 200 342
+INFO 2026-05-13 19:02:35,107 log 18204 14280 "OPTIONS /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 19:02:35,170 log 18204 14280 "GET /euser/myorder/?user_id=5&types=1&page=1&page_size=10 HTTP/1.1" 200 2536
+INFO 2026-05-13 19:02:39,845 log 18204 14280 "OPTIONS /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 19:02:39,897 log 18204 14280 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1759
+INFO 2026-05-13 19:03:03,187 log 18204 14280 "OPTIONS /euser/refund/ HTTP/1.1" 200 0
+INFO 2026-05-13 19:03:07,150 log 18204 14280 "POST /euser/refund/ HTTP/1.1" 200 33
+INFO 2026-05-13 19:03:08,874 log 18204 14280 "GET /euser/myorder/?user_id=5&types=2&page=1&page_size=10 HTTP/1.1" 200 1235
+INFO 2026-05-13 19:03:23,686 log 18204 14280 "OPTIONS /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 0
+INFO 2026-05-13 19:03:23,801 log 18204 14280 "GET /euser/myorder/?user_id=5&types=&page=1&page_size=10 HTTP/1.1" 200 2923
