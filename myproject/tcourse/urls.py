@@ -18,6 +18,7 @@ Including another URLconf
 from django.urls import path
 from django.contrib import admin
 from .views import *
+from .video_upload import upload_video, start_video_processing, get_video_status
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -51,7 +52,11 @@ urlpatterns = [
     path("alipaycallback/", AliPayCallbackView.as_view()),
     path("testcelery/", TestCeleryView.as_view()),
     path("search/", SearchView.as_view()),
-
+    
+    # 视频上传与处理接口
+    path("upload-video/", upload_video),
+    path("start-video-processing/", start_video_processing),
+    path("video-status/", get_video_status),
 
 ]
 

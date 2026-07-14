@@ -16,8 +16,8 @@ import ResetPassword from '../views/ResetPassword.vue'
 import AIAssistant from '../views/AIAssistant.vue'
 import LiveRoom from '../views/LiveRoom.vue'
 import CourseStudyEnhanced from '../views/CourseStudyEnhanced.vue'
-
-
+// 新增：视频上传页面
+import VideoUpload from '../components/VideoUpload.vue'
 
 
 const routes = [
@@ -37,6 +37,8 @@ const routes = [
     { path: '/ai-assistant', component: AIAssistant},
     { path: '/live/:roomId', component: LiveRoom},
     { path: '/course-study-enhanced/:courseId', component: CourseStudyEnhanced},
+    // 新增路由：视频上传
+    { path: '/video-upload', component: VideoUpload},
 
 
 ]

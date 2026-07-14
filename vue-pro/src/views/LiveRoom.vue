@@ -42,10 +42,18 @@
             v-for="item in liveStore.danmakuList"
             :key="item.id"
             class="danmaku-item"
+            :class="{ 'danmaku-system': item.system, 'danmaku-history': item.history }"
           >
-            <span class="danmaku-user">{{ item.username }}：</span>
+            <span v-if="item.system" class="system-tag">系统</span>
+            <span v-if="item.history" class="history-tag">历史</span>
+            <span class="danmaku-user" :class="{ 'user-system': item.system }">{{ item.username }}：</span>
             <span class="danmaku-content">{{ item.content }}</span>
           </div>
+        </div>
+
+        <!-- 错误提示条 -->
+        <div v-if="liveStore.errorMessage" class="danmaku-error-tip">
+          {{ liveStore.errorMessage }}
         </div>
 
         <!-- 弹幕输入区 -->
@@ -53,6 +61,8 @@
           <el-input
             v-model="danmakuContent"
             placeholder="发条弹幕吧..."
+            maxlength="100"
+            show-word-limit
             @keydown.enter="sendDanmaku"
           />
           <el-button type="primary" @click="sendDanmaku" :disabled="!danmakuContent.trim()">
@@ -77,6 +87,9 @@ const route = useRoute()
 // 从路由参数中取出 roomId
 const roomId = ref<string>(String(route.params.roomId || ''))
 
+// 从 localStorage 读取登录用户名
+const currentUsername = ref<string>(localStorage.getItem('username') || '匿名用户')
+
 // 直播间 store 实例
 const liveStore = useLiveStore()
 
@@ -90,7 +103,6 @@ const danmakuListRef = ref<HTMLDivElement | null>(null)
 
 /**
  * WebSocket 消息回调，根据消息类型分发处理
- * @param data 服务端推送的消息对象
  */
 function onMessage(data: any) {
   if (!data || !data.type) return
@@ -98,23 +110,29 @@ function onMessage(data: any) {
     case 'danmaku':
       // 弹幕消息：添加到 store
       liveStore.addDanmaku({
-        id: data.id || `${Date.now()}-${Math.random()}`,
+        id: `${data.timestamp}-${Math.random().toString(36).slice(2, 8)}`,
         userId: data.user_id || data.userId || '',
         username: data.username || '匿名用户',
         content: data.content || '',
-        timestamp: data.timestamp || Date.now()
+        timestamp: data.timestamp || Date.now(),
+        system: data.system || false,
+        history: data.history || false,
       })
       scrollToBottom()
       break
     case 'online_count':
       // 在线人数更新
-      liveStore.setOnlineCount(Number(data.count || 0))
+      liveStore.setOnlineCount(Number(data.online_count || data.count || 0))
+      break
+    case 'error':
+      // 限流等错误提示
+      liveStore.setError(data.message || '发送失败')
       break
     case 'pong':
+    case 'heartbeat':
       // 心跳响应，无需处理
       break
     default:
-      // 其他类型消息忽略
       break
   }
 }
@@ -131,27 +149,15 @@ function scrollToBottom() {
 }
 
 /**
- * 发送弹幕：通过 WebSocket 发送，本地也立即添加显示
+ * 发送弹幕：通过 WebSocket 发送
+ * 注意：服务端会广播回来，本地不再手动添加，避免重复
  */
 function sendDanmaku() {
   const content = danmakuContent.value.trim()
   if (!content || !ws) return
 
-  // 通过 WebSocket 发送到服务端
   ws.sendDanmaku(content)
-
-  // 本地也立即添加一条弹幕
-  liveStore.addDanmaku({
-    id: `local-${Date.now()}`,
-    userId: 'me',
-    username: '我',
-    content,
-    timestamp: Date.now()
-  })
-
-  // 清空输入框
   danmakuContent.value = ''
-  // 滚动到底部
   scrollToBottom()
 }
 
@@ -165,13 +171,10 @@ watch(
 
 // 组件挂载：初始化 WebSocket 连接
 onMounted(() => {
-  // 设置当前直播间
   liveStore.setRoom(roomId.value)
-  // 实例化 WebSocket，传入 roomId 与消息回调
-  ws = new LiveRoomWebSocket(roomId.value, onMessage)
-  // 建立连接
+  // 传入当前用户名，便于服务端识别
+  ws = new LiveRoomWebSocket(roomId.value, onMessage, currentUsername.value)
   ws.connect()
-  // 标记为已连接（实际连接状态由 onopen 后服务端推送 online_count 反馈）
   liveStore.setConnected(true)
 })
 
@@ -350,14 +353,60 @@ onUnmounted(() => {
   border: 1px solid #f0f0f0;
 }
 
+.danmaku-item.danmaku-system {
+  background: #fffbe6;
+  border-color: #ffe58f;
+  color: #8c8c8c;
+  font-style: italic;
+}
+
+.danmaku-item.danmaku-history {
+  opacity: 0.75;
+}
+
+.system-tag,
+.history-tag {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  margin-right: 4px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.system-tag {
+  background: #faad14;
+  color: #fff;
+}
+
+.history-tag {
+  background: #d9d9d9;
+  color: #595959;
+}
+
 .danmaku-user {
   color: #409eff;
   font-weight: 600;
   margin-right: 4px;
 }
 
+.danmaku-user.user-system {
+  color: #faad14;
+}
+
 .danmaku-content {
   color: #303133;
+}
+
+/* 错误提示条 */
+.danmaku-error-tip {
+  background: #fff1f0;
+  color: #cf1322;
+  font-size: 12px;
+  padding: 6px 16px;
+  border-top: 1px solid #ffa39e;
+  text-align: center;
 }
 
 /* 弹幕输入区 */

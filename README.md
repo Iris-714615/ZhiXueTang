@@ -56,7 +56,7 @@
 | Python FastAPI AI | **FastAPI** | 完全一致，独立 8001 端口运行 |
 | Vue 3 + TS + Pinia | **Vue 3 + TS + Pinia** | 完全一致，新增 Pinia 状态管理 |
 | LangChain/LangGraph/LlamaIndex | **同左** | LangGraph 状态图 + LlamaIndex RAG + ES 向量库 |
-| WebSocket 直播 | **Django Channels** | `AsyncWebsocketConsumer` + InMemory 通道层 |
+| WebSocket 直播 | **Django Channels** | `AsyncWebsocketConsumer` + Redis Channel Layer（支持多进程分布式部署） |
 | Celery 异步任务 | **Celery + Redis** | PDF 向量化/字幕提取/报表任务 |
 | SSE 流式响应 | **StreamingResponse + fetch ReadableStream** | FastAPI 下发 + Vue 原生流式消费 |
 | JWT 鉴权 | **PyJWT（双服务共享密钥）** | Django 签发，FastAPI 验证 |
@@ -233,10 +233,59 @@ data: [DONE]\n\n
 
 ### 3.2 直播间互动（Django Channels）
 
-- **协议**：WebSocket（`ws://localhost:8000/ws/live/<room_id>/`）
+生产级实时直播互动模块，支持高并发与分布式部署。
+
+- **协议**：WebSocket（`ws://localhost:8000/ws/live/<room_id>/?username=xxx`）
 - **消费者**：`AsyncWebsocketConsumer`（全异步）
-- **功能**：实时弹幕、在线人数统计、心跳保活（ping/pong）
-- **通道层**：开发用 InMemory，生产换 `channels_redis`
+- **通道层**：`channels_redis`（Redis 后端，支持多进程/多 Worker 分布式部署）
+- **ASGI 服务器**：Daphne（替代 runserver，原生支持 WebSocket）
+
+#### 核心特性
+
+| 特性 | 说明 | 技术实现 |
+| :--- | :--- | :--- |
+| 实时弹幕 | 房间内全员广播 | `channel_layer.group_send` |
+| 在线人数 | 全局准确统计（多进程共享） | Redis `INCR`/`DECR` 原子操作 |
+| 服务端心跳 | 30 秒无响应自动断开回收资源 | `asyncio.create_task` 定时 ping |
+| 客户端心跳 | 25 秒 ping + 指数退避重连（1s/2s/4s/8s/16s） | `setInterval` + `setTimeout` |
+| 限流防刷 | 每用户每秒最多 3 条弹幕 | Token Bucket 算法 |
+| 弹幕持久化 | 保留最近 1000 条，24 小时过期 | Redis Streams `XADD`/`XREVRANGE` |
+| 断线重连补全 | 重连后自动推送最近 20 条历史弹幕 | 连接时 `XREVRANGE` 读取 |
+| 用户识别 | query string 传 username（URL 解码） | `urllib.parse.parse_qs` |
+| 异常隔离 | 单条消息异常不影响连接 | 全链路 `try/except` |
+
+#### 消息协议
+
+```jsonc
+// 客户端 → 服务端
+{ "type": "ping" }                          // 心跳
+{ "type": "danmaku", "content": "你好" }    // 发送弹幕
+
+// 服务端 → 客户端
+{ "type": "pong", "timestamp": "..." }      // 心跳响应
+{ "type": "heartbeat", "timestamp": "..." } // 服务端心跳
+{ "type": "online_count", "online_count": 2 } // 在线人数更新
+{ "type": "danmaku", "username": "张三", "content": "你好", "system": false, "history": false }
+{ "type": "error", "message": "发送太快了，请稍后再试" } // 限流提示
+```
+
+#### 高并发架构
+
+```
+         ┌──────────────┐
+         │   Nginx      │ ← 负载均衡
+         └──────┬───────┘
+                │
+    ┌───────────┼───────────┐
+    ▼           ▼           ▼
+ Daphne 1   Daphne 2   Daphne N   ← 多 Worker 进程
+    │           │           │
+    └───────────┴───────────┘
+                ▼
+      Redis Channel Layer      ← 跨进程通信
+      + Redis Streams          ← 弹幕持久化
+      + Redis 计数器            ← 在线人数
+```
 
 ### 3.3 课程业务（Django + DRF）
 
@@ -247,8 +296,18 @@ data: [DONE]\n\n
 | 购物流程 | 购物车/结算/优惠券/微信支付/支付宝回调 |
 | 学习中心 | 我的课程/学习进度/收藏/评价 |
 | 订单管理 | 订单列表/退款申请/售后流程/充值活动 |
+| 视频上传 | 分片上传/转码/字幕提取/内容向量化 |
 
-### 3.4 异步任务（Celery）
+### 3.4 视频上传处理
+
+| 模块 | 功能 | 技术实现 |
+| :--- | :--- | :--- |
+| 分片上传 | 大文件分片上传，支持断点续传 | 前端分片 + 后端合并 |
+| 视频转码 | FFmpeg 视频转码与优化 | 降低分辨率/码率，优化流式播放 |
+| 字幕提取 | Whisper 语音识别生成字幕 | 音频提取 + 语音转文字 |
+| 内容向量化 | 字幕内容构建知识库索引 | LlamaIndex 双索引构建 |
+
+### 3.5 异步任务（Celery）
 
 | 任务 | 说明 |
 | :--- | :--- |
@@ -256,6 +315,7 @@ data: [DONE]\n\n
 | 字幕提取 | 视频字幕提取并入库 |
 | 报表生成 | 用户学习报表定时生成 |
 | 邮件发送 | 注册验证邮件异步发送 |
+| 视频处理 | 视频转码、字幕提取、内容向量化 |
 
 ---
 
@@ -325,11 +385,17 @@ npm install
 ```bash
 cd myproject
 python manage.py migrate
+# 方式一：runserver（开发调试，daphne 已置 INSTALLED_APPS 首位，自动 ASGI）
 python manage.py runserver 0.0.0.0:8000
+# 方式二：daphne（生产推荐，支持多 Worker）
+daphne -b 0.0.0.0 -p 8000 myproject.asgi:application
 ```
 
-> 注：因 `INSTALLED_APPS` 首位为 `daphne`，runserver 已自动以 ASGI 模式运行，
-> 同时支持 HTTP 与 WebSocket（`ws://localhost:8000/ws/live/<room_id>/`）
+> 因 `INSTALLED_APPS` 首位为 `daphne`，runserver 已自动以 ASGI 模式运行，
+> 同时支持 HTTP 与 WebSocket（`ws://localhost:8000/ws/live/<room_id>/?username=xxx`）
+>
+> **前置条件**：Redis 必须运行（`localhost:6379`），直播模块依赖 `channels_redis` 通道层
+> **生产部署**：用 Nginx 负载均衡 + 多个 Daphne Worker 实现高并发
 
 ### ③ 启动 Celery Worker（异步任务）
 
@@ -384,6 +450,7 @@ npm run dev
 | `/course-study-enhanced/:courseId` | CourseStudyEnhanced.vue | 增强学习页 | 是 |
 | `/live/:roomId` | LiveRoom.vue | 直播间 | 是 |
 | `/user` | User.vue | 个人中心 | 是 |
+| `/video-upload` | VideoUpload.vue | 视频上传 | 是 |
 
 ### 6.2 Django 后端接口
 
@@ -425,13 +492,18 @@ npm run dev
 | `/tcourse/pay/` | POST | 发起支付 |
 | `/tcourse/search/` | GET | 搜索 |
 | `/tcourse/testcelery/` | GET | 测试 Celery |
+| `/tcourse/upload-video/` | POST | 视频分片上传 |
+| `/tcourse/start-video-processing/` | POST | 手动触发视频处理 |
+| `/tcourse/video-status/` | GET | 获取视频处理状态 |
 
 #### 直播（live）
 
 | 接口 | 方法 | 说明 |
 | :--- | :--- | :--- |
 | `/live/room/<room_id>/` | GET | 直播间信息 |
-| `ws://localhost:8000/ws/live/<room_id>/` | WS | WebSocket 直播间 |
+| `/live/online/<room_id>/` | GET | 在线人数（Redis 实时） |
+| `/live/danmaku/<room_id>/?limit=50` | GET | 历史弹幕（Redis Streams） |
+| `ws://localhost:8000/ws/live/<room_id>/?username=xxx` | WS | WebSocket 直播间 |
 
 ### 6.3 FastAPI AI 微服务接口
 
@@ -506,7 +578,7 @@ npm run dev
 4. **LlamaIndex 双索引**：VectorStoreIndex（细节）+ SummaryIndex（概括），LLM 自动路由
 5. **混合检索增强**：问题改写 → 多路召回 → 归一化加权 → BGE-reranker 重排
 6. **优雅降级机制**：RAG 索引未构建时自动降级为通用 LLM 对话，保证用户体验
-7. **Channels 直播间**：全异步 WebSocket，组广播弹幕，心跳保活
+7. **Channels 直播间**：全异步 WebSocket，Redis 通道层支持分布式部署，弹幕持久化 + 限流 + 心跳 + 断线重连
 8. **Celery 削峰**：PDF OCR、字幕提取、报表生成异步化
 9. **Pinia 跨组件状态**：用户/课程/聊天/直播状态统一管理
 10. **工厂模式数据处理**：PDF/Word/Web 处理器可扩展（开闭原则）
@@ -521,7 +593,7 @@ npm run dev
 | Django 后端 | 8000 | HTTP + WebSocket |
 | FastAPI AI | 8001 | SSE 流式对话 |
 | MySQL | 3306 | 主数据库 |
-| Redis | 6379 | 缓存/会话/Celery |
+| Redis | 6379 | 缓存/会话/Celery/Channel Layer/直播弹幕持久化 |
 | Elasticsearch | 9200 | 向量检索 |
 | RabbitMQ | 5672 | 消息队列（可选） |
 
@@ -529,7 +601,9 @@ npm run dev
 
 ## 十一、生产环境建议
 
-- Channels 通道层从 `InMemoryChannelLayer` 切换为 `channels_redis`
+- ~~Channels 通道层从 `InMemoryChannelLayer` 切换为 `channels_redis`~~ ✅ 已完成
+- 直播间高并发：Nginx 负载均衡 + 多个 Daphne Worker（`daphne -p 8000 -n 4`）
+- 弹幕存储迁移至独立 Redis 实例（避免与业务缓存争抢资源）
 - MySQL 启用主从读写分离；Redis 哨兵集群；ES 分片 + KNN 专区
 - FastAPI 通过 gunicorn + uvicorn worker 多进程部署
 - 静态资源与上传文件迁移至对象存储（七牛/MinIO）
@@ -575,3 +649,18 @@ npm run dev
 **原因**：`tcourse/views.py` 中 `Elasticsearch()` 未传 hosts 参数
 
 **解决**：已修改为 `Elasticsearch(hosts=["http://localhost:9200"])`
+
+### Q6：直播间 WebSocket 连接失败？
+
+**原因**：Redis 未运行（`channels_redis` 通道层依赖 Redis），或 Django 以 WSGI 模式运行
+
+**解决**：
+- 确保 Redis 在 `localhost:6379` 运行
+- 用 `daphne` 或 `runserver`（daphne 已置 INSTALLED_APPS 首位，自动 ASGI）启动，不要用 `wsgi`
+- 检查 `CHANNEL_LAYERS` 配置是否为 `channels_redis.core.RedisChannelLayer`
+
+### Q7：直播间弹幕显示用户名乱码（如 `%E5%BC%A0%E4%B8%89`）？
+
+**原因**：消费者从 query string 读取 username 时未做 URL 解码
+
+**解决**：已用 `urllib.parse.parse_qs` 正确解析 URL 编码的 username

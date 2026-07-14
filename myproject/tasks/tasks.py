@@ -86,6 +86,108 @@ def extract_video_subtitles(video_path, course_id):
 
 
 @app.task
+def process_video(video_path, original_filename, course_id):
+    """异步视频处理任务（转码+字幕提取+向量化）"""
+    try:
+        import subprocess
+        import whisper
+        import os
+        from django.conf import settings
+        
+        print(f"开始处理视频: {video_path}, 课程ID: {course_id}")
+        
+        # 1. 视频转码（降低分辨率/码率）
+        output_path = video_path.replace('.mp4', '_optimized.mp4')
+        cmd = [
+            'ffmpeg', '-i', video_path,
+            '-c:v', 'libx264', '-crf', '28',  # 压缩质量
+            '-c:a', 'aac', '-b:a', '128k',    # 音频比特率
+            '-movflags', '+faststart',         # 流式播放优化
+            output_path
+        ]
+        subprocess.run(cmd, check=True, capture_output=True)
+        print(f"视频转码完成: {output_path}")
+        
+        # 2. 提取音频并转文字（生成字幕）
+        audio_path = video_path.replace('.mp4', '.wav')
+        cmd = ['ffmpeg', '-i', video_path, '-vn', '-ar', '16000', '-ac', '1', '-f', 'wav', audio_path]
+        subprocess.run(cmd, check=True, capture_output=True)
+        print(f"音频提取完成: {audio_path}")
+        
+        # 3. 使用 Whisper 生成字幕
+        print("开始使用 Whisper 生成字幕...")
+        model = whisper.load_model("base")
+        result = model.transcribe(audio_path)
+        
+        # 4. 保存字幕文件
+        srt_path = video_path.replace('.mp4', '.srt')
+        with open(srt_path, 'w', encoding='utf-8') as f:
+            for i, segment in enumerate(result['segments'], 1):
+                start = segment['start']
+                end = segment['end']
+                text = segment['text']
+                
+                f.write(f"{i}\n")
+                f.write(f"{format_time(start)} --> {format_time(end)}\n")
+                f.write(f"{text}\n\n")
+        
+        print(f"字幕文件生成完成: {srt_path}")
+        
+        # 5. 将字幕内容向量化并存入知识库
+        try:
+            from ai_service.app.services.rag_service import get_rag_service
+            rag_service = get_rag_service()
+            
+            # 读取字幕内容
+            with open(srt_path, 'r', encoding='utf-8') as f:
+                subtitle_content = f.read()
+            
+            # 构建双索引
+            build_result = rag_service.build_indexes(course_id, subtitle_content)
+            print(f"课程 {course_id} 知识库构建完成: {build_result}")
+            
+            # 创建索引标记文件
+            index_flag_path = srt_path.replace('.srt', '_indexed.flag')
+            with open(index_flag_path, 'w') as f:
+                f.write(str(datetime.now()))
+                
+        except ImportError:
+            print("警告: 无法导入 ai_service，跳过知识库构建")
+        except Exception as e:
+            print(f"知识库构建失败: {str(e)}")
+        
+        # 6. 清理临时音频文件
+        if os.path.exists(audio_path):
+            os.remove(audio_path)
+        
+        print(f"视频处理任务完成: {output_path}")
+        
+        return {
+            'status': 'success', 
+            'video_path': output_path, 
+            'subtitle_path': srt_path,
+            'course_id': course_id,
+            'original_filename': original_filename
+        }
+        
+    except subprocess.CalledProcessError as e:
+        print(f"FFmpeg 处理失败: {str(e)}")
+        return {'status': 'error', 'message': f'FFmpeg 处理失败: {str(e)}'}
+    except Exception as e:
+        print(f"视频处理失败: {str(e)}")
+        return {'status': 'error', 'message': str(e)}
+
+
+def format_time(seconds):
+    """格式化时间戳为 SRT 格式"""
+    hours = int(seconds // 3600)
+    minutes = int((seconds % 3600) // 60)
+    secs = int(seconds % 60)
+    ms = int((seconds - int(seconds)) * 1000)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d},{ms:03d}"
+
+
+@app.task
 def generate_learning_report(user_id, course_id):
     """学习数据报表生成任务"""
     print(f"开始生成学习报表, 用户ID: {user_id}, 课程ID: {course_id}")

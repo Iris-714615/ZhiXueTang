@@ -8,7 +8,9 @@ export interface DanmakuMessage {
   userId: string
   username: string
   content: string
-  timestamp: number
+  timestamp: number | string
+  system?: boolean
+  history?: boolean
 }
 
 export const useLiveStore = defineStore('live', () => {
@@ -20,10 +22,11 @@ export const useLiveStore = defineStore('live', () => {
   const onlineCount = ref<number>(0)
   // 弹幕列表
   const danmakuList = ref<DanmakuMessage[]>([])
+  // 错误提示（限流等）
+  const errorMessage = ref<string>('')
 
   /**
    * 设置当前直播间并清空弹幕
-   * @param id 直播间 ID
    */
   function setRoom(id: string) {
     roomId.value = id
@@ -32,19 +35,23 @@ export const useLiveStore = defineStore('live', () => {
 
   /**
    * 添加一条弹幕，最多保留最近 200 条
-   * @param msg 弹幕消息
    */
   function addDanmaku(msg: DanmakuMessage) {
     danmakuList.value.push(msg)
-    // 超过 200 条时只保留最近 200 条
     if (danmakuList.value.length > 200) {
       danmakuList.value = danmakuList.value.slice(-200)
     }
   }
 
   /**
+   * 批量添加历史弹幕（去重）
+   */
+  function setHistory(messages: DanmakuMessage[]) {
+    danmakuList.value = messages
+  }
+
+  /**
    * 设置连接状态
-   * @param val 是否已连接
    */
   function setConnected(val: boolean) {
     isConnected.value = val
@@ -52,11 +59,32 @@ export const useLiveStore = defineStore('live', () => {
 
   /**
    * 设置在线人数
-   * @param count 在线人数
    */
   function setOnlineCount(count: number) {
     onlineCount.value = count
   }
 
-  return { roomId, isConnected, onlineCount, danmakuList, setRoom, addDanmaku, setConnected, setOnlineCount }
+  /**
+   * 显示错误提示，3 秒后自动清除
+   */
+  function setError(msg: string) {
+    errorMessage.value = msg
+    setTimeout(() => {
+      if (errorMessage.value === msg) errorMessage.value = ''
+    }, 3000)
+  }
+
+  return {
+    roomId,
+    isConnected,
+    onlineCount,
+    danmakuList,
+    errorMessage,
+    setRoom,
+    addDanmaku,
+    setHistory,
+    setConnected,
+    setOnlineCount,
+    setError,
+  }
 })

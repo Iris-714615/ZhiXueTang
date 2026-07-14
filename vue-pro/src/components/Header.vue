@@ -14,6 +14,7 @@
           </a>
           <a href="#" @click.prevent="goToHome" class="active">知乎知学堂</a>
           <a href="#" @click.prevent="goToHome">等你来答</a>
+          <a href="#" @click.prevent="goToVideoUpload">视频上传</a>
         </nav>
       </div>
 
@@ -118,6 +119,7 @@ const goToUserCenter = () => router.push('/user')
 const goToLogin = () => router.push('/login')
 const goToRegister = () => router.push('/register')
 const goToHome = () => router.push('/')
+const goToVideoUpload = () => router.push('/video-upload')
 
 onMounted(() => {
   userStore.init()

@@ -87,14 +87,25 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 # ASGI 应用入口（Django Channels WebSocket 必需）
 ASGI_APPLICATION = 'myproject.asgi.application'
 
-# Channels 通道层配置：开发环境使用内存层，生产环境应改用 Redis 后端
-# 生产示例：{'BACKEND': 'channels_redis.core.RedisChannelLayer', 'CONFIG': [{'hosts': [('127.0.0.1', 6379)]}]}
+# Channels 通道层配置：使用 Redis 后端支持多进程/多 Worker 分布式部署
+# 跨进程通信：弹幕广播、在线人数同步；生产环境可指定独立 Redis 实例
 CHANNEL_LAYERS = {
     'default': {
-        'BACKEND': 'channels.layers.InMemoryChannelLayer',
-        # 生产环境请切换为 Redis：
-        # 'BACKEND': 'channels_redis.core.RedisChannelLayer',
-        # 'CONFIG': {"hosts": [('127.0.0.1', 6379)]},
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    }
+}
+
+# Redis 缓存：用于直播间在线人数计数、弹幕持久化（Redis Streams）、限流
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': 'redis://127.0.0.1:6379/2',
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+        },
     }
 }
 
